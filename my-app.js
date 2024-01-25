@@ -825,4 +825,10 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
            design patterns can be applied to system architectures
             - Using Proxy pattern to implement a Proxy server
             - Using the Facade pattern to implement microservices
+        
 */
+
+// End of JavaScript Revision
+
+
+// REACT BASICS
