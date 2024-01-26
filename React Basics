@@ -1,0 +1,15 @@
+CLI Tools - Vite/Create React App
+Components - Functional Components, Component Basics[JSX, Props&State, Conditional Rendering, Composition]
+Rendering - Component LifeCycle, Lists & Keys, Render Props, Refs Events, High Order Components
+Hooks - Basics[useState, useEffect], custom Hooks
+Routing - React Router
+State Management - Recoil, Context, Zustand.
+React Styles - Mantine, Tailwind, Material UI
+API Calls - SWR, react query
+Testing with Jest
+Frameworks - Next.js, Node.js
+React Forms - REact Hook Form
+React Patterns
+Deployment
+
+Mobile...React Native
