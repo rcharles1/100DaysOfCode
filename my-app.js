@@ -831,4 +831,228 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
 // End of JavaScript Revision
 
 
-// REACT BASICS
+// REACT
+/* 
+    Day 23 of 100 Days of Code
+        1. Thinking in React.
+           - Breaking UI pparts into pieces called components
+           followed by describing the visual states for each one. and finally connect them so as data flows through them.
+
+           Steps 
+           a. Break the UI into a component hierarchy
+                 .....
+
+        2. JSX
+            - JavaScript expressions, has to be compiled before reaching the browser.
+            - they can be saved in a variable, passed to a function, stored in an object or array.
+
+            JSX Elements - basic unit of JSX.
+            eg: const greeting = <h1>Hello World</h1>;
+
+            Attributes in JSX
+             - same as in HTML
+             Syntax; <a href='https/vercel.app'>My Portfolio</a>;
+            
+            Nested JSX
+             - JSX Elements can be nested inside other JSX elements, just like in HTML
+             Syntax: <a href='https/vercel.app'><h1>My Portfolio</h1></a>;
+            JSX Outer Element
+             - if a JSX expression has multiple outer elements, wrap the JSX in a <div> element.
+
+           Rendering JSX
+            a. Create a React root
+                 // Get DOM element
+                 const container = document.getElementbyId('app');
+                 // Create a root
+                 const root = createRoot(container);
+                 // rendering
+                 root.render(<p>Hi there!</p>);
+            b. Passing a Variable to render()
+                render() methods' argument doesn't need to be JSX, it should evaluate to s JSX expression.
+
+        3. The Virtual DOM
+                 - Only updates DOM elements that have changed. Reacts selling point.
+                 - Through diffing, React compares the new virtual DOM with a previous one. it then does reconciliation based on the differences noticed.
+
+                 In summary, 
+                        entire virtual DOM gets updated.
+                        virtual DOM is compared to what it lookd like before you updated, and React figures out which objects have changed.
+                        only changed objects get updated in the real DOM.
+                        Changes on the Real DOM cause the screen to change.
+
+        4. Advanced JSX
+           a. class vs className
+             - use className instead of class as in HTML
+
+           b. Self-Closing Tags
+             - Self-Closing tags include; <br>, <hr>, <img>, <input>
+             - in JSX, you have to include the slash i.e <br />
+        
+           c. JavaScript in JSX in a JavaScript file
+               - Wrap code in curily brackets {}
+
+           d. Variables in JSX
+             - variables declared outside of JSX code can be accessed while inside a JSX expression
+
+             Variable attributes in JSX 
+             Syntax;
+               const pics = {
+                        panda: "http://bit.ly/1Tqltv5",
+                        owl: "http://bit.ly/1XGtkM3",
+                        owlCat: "http://bit.ly/1Upbczi"
+                }; 
+
+                const panda = (
+                        <img 
+                        src={pics.panda} 
+                        alt="Lazy Panda" />
+                );
+
+                const owl = (
+                        <img 
+                        src={pics.owl} 
+                        alt="Unimpressed Owl" />
+                );
+
+                const owlCat = (
+                        <img 
+                        src={pics.owlCat} 
+                        alt="Ghastly Abomination" />
+                ); 
+        
+           e. Event Listeners
+               - In JSX,  event listener names are written in camelCase i.e onClick or onMouseClick
+                        eg: <img onClick={clickAlert} />
+        
+           f. JSX Conditionals: If statements don't work 
+                 only works when the if statement is written  oustide JSX
+
+           g. Ternary operator in JSX
+                import React from 'react';
+                import { createRoot } from 'react-dom/client';
+
+                const container = document.getElementById('app');
+                const root = createRoot(container);
+                function coinToss () {
+                        // Randomly return either 'heads' or 'tails'.
+                        return Math.random() < 0.5 ? 'heads' : 'tails';
+                }
+
+                const pics = {
+                        kitty: 'https://content.codecademy.com/courses/React/react_photo-kitty.jpg',
+                        doggy: 'https://content.codecademy.com/courses/React/react_photo-puppy.jpeg'
+                };
+
+                const img = <img src={pics[coinToss() === 'heads' ? 'kitty' : 'doggy']} />;
+
+                root.render(img);
+
+                // Using the && operator
+                import React from 'react';
+                import { createRoot } from 'react-dom/client';
+
+                const container = document.getElementById('app');
+                const root = createRoot(container);
+                // judgmental will be true half the time.
+                const judgmental = Math.random() < 0.5;
+
+                const favoriteFoods = (
+                        <div>
+                            <h1>My Favorite Foods</h1>
+                            <ul>
+                                <li>Sushi Burrito</li>
+                                <li>Rhubarb Pie</li>
+                                { !judgmental && <li>Nacho Cheez Straight Out The Jar</li>}
+                                <li>Broiled Grapefruit</li>
+                            </ul>
+                        </div>
+                );
+
+                root.render(favoriteFoods);
+
+          h. .map in JSX
+            - creates a new array.
+            Syntax;
+                const people = ['Rowe', 'Prevost', 'Gare'];
+
+                const peopleList = people.map((person,i) =>
+                // expression goes here:
+                <li>{person}</li>
+                );
+
+                // root.render goes here:
+                root.render(<ul>{peopleList}</ul>);
+         
+         i. Keys
+            - when creating a list in JSX, an attribute 'key' is included. Similar to an id.
+            - it has no visual effect but rather React uses them internally to keep track of lists.
+
+            Conditions; - list items have memory from one render to the next.
+                        - list's order might be shuffled.
+
+        5. Creating an element without JSX
+            - createElement(type(div or span), props(object or null), ...children)
+
+            function Greeting({name}) {
+                return createElement(
+                   'h1',
+                   { className: 'greeting'},
+                   'Hello'
+                );
+             }  
+             
+        6. React Components
+             small, resusable chunk of code responsible for one job, to render some HTML and re-render it when some data changes.
+
+             a. functional components
+                 - naming convention must be PascalCase
+                 - must return react elements in JSX.
+                 
+             b. Exporting and importing
+                the entry point is where the components will be rendered to DOM.
+            
+             c. Using and Rendering a Component
+                import MyComponent from './App';
+
+                ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent/>);
+*/
+
+
+/*
+   Day 24 of 100 Days Of Code
+        1. Components and Advanced JSX
+             a. Function Components can return multiline JSX lines: wrap return value in parentheses
+             b. using a variable attribute in a component with JavaScript injections
+                Syntax;
+                function Owl() {
+                        return (
+                                <div>
+                                        <h1>{owl.title}</h1>
+                                        <img src={owl.src} alt={owl.title}/>
+                                </div>
+                        );
+                }
+             c. Putting logic in function Component
+             d. Components can conditionally return JSX elements by puttin conditional statements inside components
+             d. Event Listener and Event handlers in a Component
+                 - components can respond to events by defining event handlers and passing them to the JSX elements
+                 - event handler function are defined inside the function component and, by convention, start with the word "handle" followed by type of event it is handling.
+                   Syntax;
+                   function MyComponent(){
+                        function handleHover() {
+                                alert('Stop it.  Stop hovering.');
+                        }
+                        return <div onHover={handleHover}></div>;
+                   }
+
+        2. Creating a React App
+            - this can be achieved through;
+               a. create-react-app (CRA): standard procedure, performance dips with app size increase.
+                     - Hence not suitable for large projects.
+                     - creates local React Development environmnet
+               b. vite
+                     - creates a dev server
+                     - platform agnostic
+                     
+
+*/
