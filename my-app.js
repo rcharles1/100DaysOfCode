@@ -1033,7 +1033,7 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
                         );
                 }
              c. Putting logic in function Component
-             d. Components can conditionally return JSX elements by puttin conditional statements inside components
+             d. Components can conditionally return JSX elements by putting conditional statements inside components
              d. Event Listener and Event handlers in a Component
                  - components can respond to events by defining event handlers and passing them to the JSX elements
                  - event handler function are defined inside the function component and, by convention, start with the word "handle" followed by type of event it is handling.
@@ -1053,6 +1053,133 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
                b. vite
                      - creates a dev server
                      - platform agnostic
+
+
+                c. Common scripts for the CRA - npx create-react-app myapp --use-npm;
+                 npm start - starts the development server
+                 npm run build - bundles app into static files for production
+                 npm test - starts the test runner.
+                 npm run eject - removes the tool.
+                
+                d. React App Structure
+                   myapp
+                   |-- node_modules (dependencies of packages used by the current React app, as specified by package.json)
+                   |-- public (assets that will be served without processing by webpack)
+                   |     manifest - configures how web app will behave if added to an Android users home screen)
+                   |-- src ( contains JS that will be processed by webpack)
+                   |-- .gitignore (used by git to determines files and directories to ignore when committing code.)
+                   |-- package.json (outlines all settings for the React app)
+                   |-- package-lock.json (history of changes to package.json, provides a way for teams working on private app to ensure that 
+                   |     they have the same version of dependencies and sub dependencies)
+                   |__ README.md
+                
+                e. Starting the React App Development Server : npm start // While inside app's directory
+
+*/
+
+
+/* 
+   Day 25 of 100 Days of Code
+        1. Component render other Components
+                - how components can reference other components
+                - how this allow us to separate our components into separate files.
+
+                a. Returning another component
+                    Syntax;
+                    function Picture() {
+                            return <img src="..." />;
+                    }
+
+                    function Profile() {
+                            return (
+                                <>
+                                    <Picture />
+                                    <h1>Name: Robin</h1>
+                                    <h2>Car: Audi A6 Avant</h2>
+                                    <h2>Model Year: 2019</h2>
+                                </>
+                            )
+                    }
+                
+                b. Apply Component in render function
+                    - components can interact with each other by returning instances of each other.
+                    - This allows them to be broken into smaller components, stored into separate files, and reused when necessary.
+
+        2. props
+            - one component passing information to another component.q
+                  pass, access and display props.
+                  use props to create conditional statements
+                  define event handler in a component and pass them to other components.
+                  work with a component's children
+                  assign default values to props.
+
+                  a. Access a components' props
+                        syntax; props.name
+                        i.e {props.firstName}
+                  b. Passing props to a Component
+                      i.e. <Greeting name="Robin" car="AUDI A6 AVANT" model={2019} favorite={true} />
+                  c. Pass props from component to component
+                     - they travel in one-direction, top to bottom, parent to child
+                     - props passed down are immutable.
+                     - components can not pass props to its siblings too.
+                  d. Render Different UI Based on props
+                     - in simpler terms make decisions using props.
+                     Syntax;
+                     function Greeting(props) {
+                        if (props.signedIn == false) {
+                                return <h1>Please login.</h1>;
+                         } else {
+                                return (
+                                        <>
+                                          <h1>Welcome back, {props.name}!</h1>
+                                          <article>
+                                                Latest Movie: A Computer Bug's Life
+                                          </article>
+                                        </>
+                                );
+                          }
+                       }
+                  e. Passing and receiving an Event handler as a prop
+                       // This passes a prop named talk component 
+                       function Talker() {
+                        function talk() {
+                                let speech = '';
+                                for (let i = 0; i < 10000; i++) {
+                                        speech += 'blah ';
+                                  }
+                                  alert(speech);
+                                }
+                        return <Button talk={talk}/>;
+                       }
+
+                       // This receives the handler and attaches it to the button
+                       function Button(props) {
+                                return (
+                                        <button onClick={props.talk}>
+                                             Click me!
+                                        </button>
+                                );
+                        }
+
+                        - Naming convention is guided by two things: - event handler named after event type
+                                                                     - when naming the prop name, 'on' plus event type.
+                  f. props.children 
+                      - returns everything between a component's opening and closing tags.
+
+                  g. Asssigning default values to props
+                     Syntax;
+                     function Button(props) {
+  
+                        return (
+                        <button>{props.text}</button>
+                        );
+                     }
+                     Button.defaultProps = {
+                        text: 'Default Text of Big Button'
+                     }
+
+        3. React Developer Tools to debug React Apps
                      
+
 
 */
