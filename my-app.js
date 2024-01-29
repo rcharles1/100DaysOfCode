@@ -1179,7 +1179,161 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
                      }
 
         3. React Developer Tools to debug React Apps
-                     
+
+*/
 
 
+/* 
+    Day 26 of 100 Days of Code
+        1. CodeyOverflow Forum Project
+
+        2. React Hooks
+            - functions that help manage internal state of components and handle post-rendering side effects.
+            eg useState(), useEffect(), useContext(), useReducer() and useRef().
+
+                a. Update function component State. The State Hook
+                    - imported as: import React, { useState } from 'react';
+                    - returns an array with 2 values; the current state-value of state, and state setter-a function that updates the value of this state.
+                    - updating the state is simple as calling a state setter function.
+                    Syntax;
+                        import React, { useState } from 'react';
+
+                        export default function ColorPicker() {
+                                // call useState and assign its return values to `color` and `setColor`
+                                const [ color, setColor] = useState();
+
+                                const divStyle = {backgroundColor: color};
+
+                                return (
+                                    <div style={divStyle}>
+                                        <p>The color is {color}</p>
+                                        <button onClick={() => setColor("Aquamarine")}>
+                                                Aquamarine
+                                        </button>
+                                        <button onClick={() => setColor("BlueViolet")}>
+                                                BlueViolet
+                                        </button>
+                                        <button onClick={() => setColor("Chartreuse")}>
+                                                Chartreuse
+                                        </button>
+                                        <button onClick={() => setColor("CornflowerBlue")}>
+                                                CornflowerBlue
+                                        </button>
+                                    </div>
+                                );
+                        }
+                b. Initialize State
+                   Syntax; const [ color, setColor ] = useState('Tomato');
+                   - State hook can be used to manage primitive data types as well as collections(arrays & objects).
+                   - initializing affects code in 3 ways;
+                        i. During first render, the initial argument is used. one that is initialized
+                       ii. when state setter is called, the initial state argument is ignored and the new value is used.
+                      iii. when component re-renders, react uses the same value from the previous render.
+
+                    - explictly pass null instead of leaving the value as undefined, to avoid being unclear o humans.
+
+                c. Use State Setter Outside of JSX
+                    - separation of concerns.
+                    - put in the handle function.
+                    Syntax;
+                    export default function PhoneNumber() {
+                        // declare current state and state setter 
+                        const  [phone, setPhone]  = useState('');
+
+                        const handleChange = ({ target })=> {
+                                const newPhone = target.value;
+                                const isValid = validPhoneNumber.test(newPhone);
+                                if (isValid) {
+                                        // update state 
+                                        setPhone(newPhone);
+                                }
+                                // just ignore the event, when new value is invalid
+                        };
+
+                        return (
+                                <div className='phone'>
+                                        <label for='phone-input'>Phone: </label>
+                                        <input id='phone-input' value={phone} onChange={handleChange}/>
+                                </div>
+                        );
+                     }
+
+                d. Set From Previous State
+                     Syntax;
+                     import React, { useState } from 'react';
+
+                     export default function QuizNavBar({ questions }) {
+                        const [questionIndex, setQuestionIndex] = useState(0);
+
+                        // define event handlers
+                        const goBack = () => 
+                        setQuestionIndex(prevQuestionIndex => prevQuestionIndex - 1);
+                        const goToNext = () => 
+                        setQuestionIndex(prevQuestionIndex => prevQuestionIndex + 1);
+
+                        const onFirstQuestion = questionIndex === 0;
+                        const onLastQuestion = questionIndex === questions.length - 1;
+
+                        return (
+                        <nav>
+                                <span>Question #{questionIndex + 1}</span>
+                                <div>
+                                        <button disabled={onFirstQuestion} onClick={goBack}>
+                                                Go Back
+                                        </button>
+                                        <button disabled={onLastQuestion} onClick={goToNext}>
+                                                Next Question
+                                        </button>
+                                </div>
+                        </nav>
+                        );
+                     }
+
+                g. Arrays in State
+                     a new state is a complete new array.
+
+                     Example
+                     import React, { useState } from "react";
+                     import ItemList from "./ItemList";
+                     import { produce, pantryItems } from "./storeItems";
+
+                     export default function GroceryCart() {
+                        const [cart, setCart] = useState([]);
+
+                        const addItem = (item) => {
+                                setCart((prev) => {
+                                return [item, ...prev];
+                                });
+                        };
+
+                        const removeItem = (targetIndex) => {
+                                setCart((prev) => {
+                                return prev.filter((item, index) => index !== targetIndex);
+                                });
+                        };
+
+                        return (
+                                <div>
+                                        <h1>Grocery Cart</h1>
+                                        <ul>
+                                                {cart.map((item, index) => (
+                                                <li onClick={() => removeItem(index)} key={index}>
+                                                {item}
+                                                </li>
+                                                ))}
+                                        </ul>
+                                        <h2>Produce</h2>
+                                        <ItemList items={produce} onItemClick={addItem} />
+                                        <h2>Pantry Items</h2>
+                                        <ItemList items={pantryItems} onItemClick={addItem} />
+                                </div>
+                        );
+                    }
+                
+                h. Objects in State
+                
+
+
+                    
+           
 */
