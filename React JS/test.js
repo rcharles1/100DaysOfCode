@@ -1,5 +1,8 @@
-let a = 1;
-let b = () => a = 2;
-b();
+function sayHi() {
+    console.log(name);
+    console.log(age);
+    var name = 'Lydia';
+    let age = 23;
+}
 
-console.log(a);
+sayHi();
