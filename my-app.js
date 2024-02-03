@@ -1233,7 +1233,7 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
                     - explictly pass null instead of leaving the value as undefined, to avoid being unclear o humans.
 
                 c. Use State Setter Outside of JSX
-                    - separation of concerns.
+                    - separation of concerns. for complex event handlers
                     - put in the handle function.
                     Syntax;
                     export default function PhoneNumber() {
@@ -1259,6 +1259,7 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
                      }
 
                 d. Set From Previous State
+                     - we use a state setter callback function when next value depends on previous value.
                      Syntax;
                      import React, { useState } from 'react';
 
@@ -1331,9 +1332,91 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
                     }
                 
                 h. Objects in State
-                
+                   - use spread syntax on collections of dynamic data to copy the previous state into the next state. this prevents creating a new object with only the current state
+                   eg: setProfile((prevProfile) => ({
+                            ...prevProfile,
+                            [key]: value
+                        }))   
+                arrays and objects are used to organizze and manage related data that tend to change together.    
+*/
 
 
-                    
-           
+/* 
+    Day 27 of 100 Days of Code
+        1. Seperate hooks for separate state
+            - creating different state variable for data that change separately
+            Syntax;
+            function MusicalRefactored() {
+                const [title, setTitle ] = useState("Best Musical Ever");
+                const [actors, setActors] = useState(['George Wilson', 'Tim Hughes', 'Larry Clements']);
+                const [locations, setLocations] = useState({
+                        Chicago: {
+                           dates: ["1/1", "2/2"],
+                           address: "chicago theater"
+                        },
+                        SanFrancisco: {
+                           dates: ["5/2"],
+                           address: "sf theater"
+                        }
+                });
+             }
+
+        2. The Effect Hook, useEffect
+            - executes some JS code right after a component has rendered.
+            subsequently allowing a component to perform side effects such as data fetching, subscriptions, or manually changing the DOM.
+
+            Key moments when Effect hook can be utilized;
+              a. When a component is first added, or mounted to the DOM and renders.
+              b. when state or props change, causing component to re-render.
+              c. when component is removed, or unmounted from DOM.
+
+              a. Function Component Effects
+                 - effect hooks tell a component what to do everytime it's re-rendered.
+                 Syntax;
+
+                 import React, { useState, useEffect } from 'react';
+
+                  export default function Counter() {
+                        const [count, setCount] = useState(0);
+
+                        useEffect(() =>{
+                            alert(`Count: ${count}`);
+                        });
+                        const handleClick = () => {
+                            setCount((prevCount) =>  prevCount + 1);
+                        };
+
+                        return (
+                            <div>
+                                <p>You clicked {count} times</p>
+                                <button onClick={handleClick}>
+                                        Click me
+                                </button>
+                            </div>
+                        );
+                  }
+
+              b. Clean Up Effects
+                 For instance, removing event listeners to avoid memory leaks because each time a component re-renders an event listener would be added to the DOM's document object.
+                 - with just a few clicks and rerenders, a lot of event listeners are attached to the DOM. Clean Up is crucial as HELLL!!
+
+                 Syntax;
+                  useEffect(() => {
+                          document.addEventListener('click', increment);
+                        return () => {
+                                document.removeEventListener('click, increment);
+                        }
+                  })
+
+               c. Control When Effects run.
+                  - by passing a second argument to the useEffect(), an array of dependencies.
+                  mount - renders for the first time.
+
+                  Focus is on using an empty dependency array to call an effect.
+
+               d. Fetch Data
+                   - more attention is when the effect is called. Unnecessry callings can be costly in terms of processing, performance, data usage for mobile users, API services.
+                   An empty dependency array signals to the Effect Hooks that the result of the effect won't change and calling the effect once is enough.
+                   A dependency array that is not empty signals to the Effect Hook a value of a dependency has changed, then the Effect Hook will call our effect again.
+
 */
