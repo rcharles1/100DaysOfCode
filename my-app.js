@@ -1419,4 +1419,301 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
                    An empty dependency array signals to the Effect Hooks that the result of the effect won't change and calling the effect once is enough.
                    A dependency array that is not empty signals to the Effect Hook a value of a dependency has changed, then the Effect Hook will call our effect again.
 
+                   Syntax;
+                   const [data, setData] = useState();
+                   const [notes, setNotes] = useState({});
+                   const [forecastType, setForecastType] = useState('/daily');
+
+                   useEffect(() => {
+                        alert('Requested data from server...');
+                        get(forecastType).then((response) => {
+                                alert('Response: ' + JSON.stringify(response,'',2));
+                                setData(response.data);
+                        });
+                        }, [forecastType]);
+
+                        const handleChange = (index) => ({ target }) =>
+                                setNotes((prev) => ({
+                                ...prev,
+                                [index]: target.value
+                        }));
+
+                        if (!data) {
+                               return <p>Loading...</p>;
+                        }
+
+                e. Rules of Hooks
+                   only call hooks at the top level:- never inside of loops, conditions, or nested functions
+                   only call hooks from React functionc. and in Custom Hooks
+                   Syntax;
+                       useEffect(() => {
+                                if (selectedCategory && !items[selectedCategory]) {
+                                        get(`/items?category=${selectedCategory}`).then((response) => {
+                                                setItems((prev) => ({ ...prev, [selectedCategory]: response.data }));
+                                        });}
+                                }, [items, selectedCategory ])
+                        }
+                
+                f. Separate Hooks Effects
+                   - take a look at D:\Career\Career-Development\100-Days-Of-Code\code\React JS\test.js
+
+                   Dependency Array 1 undefined - effect called after first render & every re-render.
+                                    2. Empty array - after first render & no re-renders.
+                                    3. Non-empty array - when any value on the dependency array changes. 
+
+*/
+
+
+/* 
+    Day 28 of 100 Days of Code
+        1. React Context Hook
+            - manages state globally.
+            - in conjunction with useState Hook, deeply nested components can share state more easily than with usestate alone (props).
+
+            Fistly, create context. import createContext from react library and initialize it
+            i.e import { React, useState, createContext, useContext } from 'react';
+                const UserContext = createContext()
+
+            Then, Wrap the tree of components that need the state Context with Context Provider and supply state value.
+            eg: function Component1() {
+                    const [ user, setUser] = useState('Robin');
+
+                    return (
+                            <UserContext.Provider value={user}>
+                                <h1>{`Hello ${user}!`}</h1>
+                                <Component2 user={user} />
+                            </UserContext.Provider>
+                    );
+            }
+
+            Accessing the context from a child component.
+            function Component5() {
+                    const user = useContext(UserContext);
+
+                    return (
+                            <>
+                               <h1>Comopent 5</h1>
+                               <h2>{`Hello ${user} again!`}</h2>
+                            </>
+                    )
+            }
+
+        2. Custom Hooks
+           - allows to extract and reuse stateful logic across different components.
+           - are simply JavaScript functions that start with the word use and can call other hooks.
+           - best created in  a separate file for better resusability.
+           eg 
+           import ( useState, useEffect ) from 'react';
+
+           const useFetch = (url) => {
+                   const [data, setData] = useState(null);
+
+                   useEffect(() => {
+                           fetch(url)
+                                .then((res) => res.json())
+                                .then((data) => setData(data));
+                   }, [url]);
+
+                return [data];
+           }
+
+*/
+
+
+/*
+   Day 29 of 100 Days of Code
+
+        3. React Programming Patterns
+               a. Separate Container Components from presentational Components
+                  Stateful - manage complex state or logic while Stateless components only render JSX.
+
+                  i. create container component- incharge of maintaining the state (creating and updating) and passing it on to any component it renders through props.
+                  ii. create presidential component - its job is to only contain JSX. it should be an exported component and should not render itself.
+                      presentational component will always get rendered by a container.
+
+                  Container components communicate with presentational components by passing state through props. Meanwhile the container component must define and provide a way for the presentational component to communicate with it
+                  using a change handler function passed as a prop.
+
+                  Eg: 
+                  function Container() {
+                        const [isActive, setIsActive] = useState(false);                              
+                                                        
+                        return (
+                                <>
+                                        <Presentational active={isActive} toggle={setIsActive}/>
+                                        <OtherPresentational active={isActive}/>
+                                </>
+                        );                          
+                   }
+                                                
+                   function Presentational(props) {
+                        return (
+                                <h1>Engines are {props.active}</h1>
+                                <button onClick={() => props.toggle(!props.active)}>Engine Toggle</button>
+                        );
+                   }
+                                                
+                    function OtherPresentational(props) {
+                        // render...
+                   }
+
+                   this patternm indirectly results in communication bewtween sibling component. through state update
+
+                b. Render Presentational Component in Container
+
+        3. React Router v6
+                a. What Is Routing? - a process by which a web application uses the current browser URL to determine what content to show a user.
+                        - the general concern here is organizing an application's content and displaying only whats requested by the user.
+
+                        Basics of structure of URL;
+                                Protocal:- HTTP, HTTPS, mailto, ... Mandatory
+                                Domain:- specifies the website that hosts the resource. the entry point for your application.
+                                Path: specific resource to be loaded
+                                The optional query string: appear after a '?'
+
+                        React Router a popular front-end routing solution for React apps.
+                           - it provides multiple routers, createBrowserRouter being the most common one.
+                           - views are also called routes (React component)
+                           - Use the RouterProvider to make the created router available to the entire application
+
+                b. Basic Routing with <Route>
+                   - static routing: render a consistent view(component)
+                c. Linking to Routes
+                    - We use the URL bar to navigate to a path that matched one on the app's routes.
+                    how about navigating from within the app itself? 
+                    React Router offers two solutions: the Link and NavLink components.
+                     Eg: <Link to="/about">About</Link>
+                         <NavLink to="/about" className={ ({ isActive }) => isActive? 'activeNavLink' : 'inactiveNavLink'}>About</NavLink>
+                
+                d. Dynamic Routes
+                   - syntax;
+                   <Route path='articles/:title' element={ <Article />} />
+
+                e. useParams Hook
+                   - provided by React router provides a hooks, useParams() for accessing the value if URL parameters.
+                   When called, useParams() returns an ibject that maps names of URL parameters to their values in the current URL
+
+                   - also imported from react-router-dom
+                
+                f. Nested Routes
+                   - a route within a route. A child Route's path is relative to the parent Route's path. Thus do not include the parent path in its prop.
+                   - upon nesting a route element, we need to make use of the React Router Outlet component in the parent component to tell the parent component where to render its child route element.
+                   - An index route: uses the index prop instead of a path prop
+
+                g. <Navigate>
+                   - ideal for redirecting just like the Link and NavLink, it also has a 'to' prop. However, Link and NavLink must be clicked to navigate the user, once Navigate is rendered the user will automatically
+                   be taken to location specified.
+                   - redirect declaratively
+                   - imported from react-router-dom
+
+                h. useNavigate
+                   - an imperative mechanism for updating the browser's location.
+                   - imported from the react-router-dom
+                   - ideal for navigating users through their hostory stack.
+                   eg; navigate(-1) - previous URL
+                       navigate(1) - next URL
+                       navigate(-3) - navigate 3 URLs back.
+
+                   Syntax;
+                   import { useNavigate } from `react-router-dom`;
+
+                    export const ExampleForm = () => {
+
+                        const navigate = useNavigate()
+
+                        const handleSubmit = e => {
+                        e.preventDefault();
+                        navigate('/')
+                        }
+
+                        return (
+                                <form onSubmit={handleSubmit}>
+                                        // { form elements }
+                                </form>
+                        )
+                    }
+
+                i. Query Parameters
+                   - prepended by a '?' followed by a parameter name assigned to a value.
+                   most used to search, sort and/or filter resources.
+                   Eg; const [ searchParams, setSearchParams ] = useSearchParams(); 
+
+                   - React router provides the useSearchParams() hook that will return a URLSearchParams object
+                   - works well only when we want to access or alter the current paths's query parameters
+                    but to navigate to a path and include query parameters createSearchParams() is used in conjunction with the useNavigate.
+
+        4.  Styling React Apps
+                a. Inline Styles and Style Object variables
+                  eg: <h1 style={{ color: 'red' }}>Hello World</h1>
+
+                  style object variable is suitable when applying more than one style
+                   eg: const darkMode = {
+                           color: 'white',
+                           background: 'black';
+                   };
+                   <h1 style={darkMode}>Hello World</h1>
+                
+                b. Style Syntax
+                   CSS property names use camelCase in React
+
+                c. Multiple Stylesheets
+                   best to be modular by creating a separate stylesheet for each component
+                   - implemented by using modules
+*/
+
+/* Day 31 of 100 Days of Code 
+        TAILWIND CSS: https://tailwindcss.com/docs/utility-first
+
+        1. Utility-First Fundamentals
+           - traditional styling approach requires the use of custom CSS for custom designs
+           With tailwind, utility classes are used to build custom designs without writing CSS
+           eg: flexbox, padding, max-width, margin, width, space-between, ...
+
+           - no inventing class names
+           - reusable code to stlye that you don't have to write new CSS
+           - state variants to target states like hover of focus.
+           
+           a. Maintainability Concerns
+                   i. managing commonly repeated utility combinations.
+                       - solved by extracting components and partials, using editor and language features like mulit-cursor editing and simple loops.
+        
+        2. Handling Hover, Focus, and Other States
+           using utilities to styles elements on hover, and other states
+           eg: <button class="bg-sky-500 hover:bg-sky-700 ...">
+                   Save Changes
+                </button>
+
+           Tailwind also includes modifiers;
+              a. Pseudo-classes, like ':hover'. ':focus', ':first-child', and ':required'
+                   - pseudo-class reference:
+                        Form states: 'required', 'invalid' and 'disabled'
+                        Styling based on parent state(group-{modifier}) -mark the parent with the group class ie
+                        'group-focus', 'group-active'
+
+                        Differentiating nested groups
+                        styling a specific parent group by giving that parent a unique group name: group/{name} class
+                        , and including that name in modifiers using classes like group-hover/{name}
+                        
+                        Arbitary groups
+
+                        Styling based on sibling state (peer-{modifier})
+                        Differentiating peers
+                        Arbitary peers
+
+                        Styling direct children (*-{modifier})
+                        Styling based on descendants (has-{modifier})
+                        Styling based on the descendants of a group (group-has-{modifier})
+                        Styling based on the descendants of a peer (peer-has-{modifier})
+
+              b. Pseudo-elements, like '::before', '::after', '::placeholder', and '::selection'
+                   - placeholder text, file input buttons, list markers, highlighted text, dailog backdrops, first-line and first-letter.
+
+              c. Media and feature queries like responsive breakpoints(md and md), dark mode and 'prefers-reduced-motion'
+                   - Viewport orientation( portrait and lndscape), print 
+
+              d. Attribute selectors, like '[dir="rtl"]' and '[open]'
+                   - ARIA States: use aria-* modifier to conditionally style things based on ARIA attributes
+              
+          
+
 */
