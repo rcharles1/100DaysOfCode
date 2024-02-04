@@ -1713,7 +1713,138 @@ Implementation of modules in JavaScript: Node.js vs ES6 – the 2 runtime enviro
 
               d. Attribute selectors, like '[dir="rtl"]' and '[open]'
                    - ARIA States: use aria-* modifier to conditionally style things based on ARIA attributes
-              
-          
+  
+*/
 
+/* 
+   Day 32 of 100 Days of Code
+       1. Responsive Design
+         => Utilize breakpoints;
+               a. sm - 640px (minimum width: @media (min-width: 640px) { ... })
+               b. md - 768px
+               c. lg - 1024px
+               d. xl - 1280px
+               e. 2xl - 1536px
+            Eg: <img class="w-16 md:w-32 lg:w-48" src="...">
+
+         => Working mobile-first
+                   Tailwind uses a mobile-first breakpoint system. Just like bootstrap.
+                   That is unprefixed utilities like 'uppercase' take effect on all screen sizes, while prefixed like 'md:uppercase' only take effect at the specified breakpoint and above.
+         
+         => Targeting mobile screens
+             Use unprefixe utilities to target mobile, and override them at larger breakpoints. 
+              Syntax; <div class="text-center sm:text-left"></div> // Centers text on mibile, and left align it on screens 640px and wider.
+             Avoid using sm as it will  center text on screens 640px and wider.
+         
+         => Targeting a breakpoint range
+              Syntax; class="md:max-xl:flex"
+
+         => Customizing theme in the tailwind.config.js
+         
+         => Arbitary values
+            use min or max modifiers to generate a custom breakpoint by using any arbitary value.
+            Syntax: min-[320px]:text-center max-[600px]:bg-sky-300
+
+        2. Dark Mode
+            With the dark variant, Tailwind lets you style a site differently when dark mode is enabled. Relies on the operating preference.
+            For toggling dark mode manually use class strategy
+
+        3. Reusing Styles - Managing duplication and creating reusable abstractions.
+               Techniques;
+               a. Using editor and language features
+               b. Mulit-cursor editing- select & edit class list for each element at once
+               c. Loops <div class="mt-3 flex -space-x-2 overflow-hidden">
+                                {#each contributors as user}
+                                    <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="{user.avatarUrl}" alt="{user.handle}"/>
+                                {/each}
+                        </div>
+                d. Extracting components and partials
+                   If you need to reuse some styles across multiple files, the best strategy is to create a component and extract it with @apply
+
+        4. Adding Custom Styles
+           a. customizing your theme to  change color pallettes, spacing style, typography scale
+           b. Using arbitary values: propeties, variants
+           c. using CSS and @layer
+              
+
+        4. Functions & Direcives
+            => Directives are custom Tailwind-specific at-rules. i.e statements that instruct CSS how to behave.
+            These include;
+                   a. @tailwind: inserts Tailwind's base, components, utilities and variants styles into your CSS
+                   b. @layer: directive instructing tailwind how to group your own styles ie creating different sections in your CSS for different types of styles.
+                   c. @apply: facilitates the use of your own custom CSS.
+
+            => Functions 
+                   theme() - access Tailwinds.config.js
+                   screen() - creates meadia queries that refernces breakpoints by name. eg; @media screen(sm) {}
+                   - use dot to access nested color values eg; theme(colors.blue.500)
+
+        5.  Layout
+            i. container class: set max width of an element to match the min-width of the current breakpoint.
+                -A component for fixind an element's width to the current breakpoint.
+                   a. container mx-auto - to center container, adjusts margin automatically
+                   b. container px-{size} - adds horizontal padding.
+
+            ii. Tailwind CSS Box Sizing
+                   utilities for how the browser should calculate an element's total size.
+                         box-border (includes content, paddding and borders) 
+                         box-content- excludes borders and padding.
+          
+           iii. Display(display) class
+                        defines how compnents are going to be placed on the web page.
+                        a. block: block element, own line, and fills its parent.
+                        b. inline-block: prevent text inside from extending beyod parent
+                        c. inline: ignores height and width set by user
+                        d. flex: block level flex container margin doesnot collapse with content margins
+                        e. inline-flex
+                        f. table
+                        g. grid
+                        h. content: disappear the container
+                        i. hidden: remove the element, sets element display to none
+
+            iv. Float Class
+                        utilities for controlling the wrapping of content around an element.
+                        a. float-right
+                        b. float-left
+                        c. float-none: floats elements at default place
+
+             v. Clear
+                   utilities for controlling the wrapping of content around an element.
+                   Eg; left, right, both, none. controlwrapping of content around an element
+
+             vi. Setting the aspect ratio of an element
+                   aspect-{ratio} 
+                   Syntax: <iframe class="w-full aspect-video md:aspect-square" src=""></iframe>
+                   can apply aspect ratio conditionally on hover, focus, and others states, breakpoints, custom themes, arbitary values.
+
+             vii. Columns 
+                   utilities for controlling number of columns within an element
+                   a. columns-{count}: sets number of columns that should be created within an element. w-full
+                   b. columns-{width}: sets ideal column width for the content within an element, number of columns(the count) automatically adjusts
+                   c. gap-x sets width between columns
+
+             viii. Break After
+                    controls how a column or page should break after an element
+                    break-after-{value}
+                    break-before-{value} opposite of break after.
+                    break-inside-{value} specifies how a column should behave within an element.
+
+               ix. Box Declaration break how element fragments should be rendered across multiple lines, columns or pages.
+                     box-decoration-slice: renders as distinct blocks
+                     boc-decoration-clone: renders as one continuous fragment.
+
+                x. Isolation
+                      utilities for controlling whether an element should explictly create a new stacking context.
+                      isolate and isolation-auto
+                      Syntax; <div class='isolate md:isolation-auto'>
+                                <!-- ... -->
+                              </div>
+
+                xi. Object Fit
+                        controlling how a replaced element's content should be resized.
+                        contain, cover, fill, scale-down, object-none
+                        Syntax; <div class='bg-indigo-300 ... '>
+                                        <img class='object-cover h-48 w-95 ...'>
+                                </div>
+                        
 */
