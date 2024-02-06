@@ -15,6 +15,11 @@ export default {
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['ui-serif', 'Georgia'],
+      'mono': ['ui-monospace', 'SFMono-Regular'],
+    },
     extend: {},
   },
   plugins: [],
