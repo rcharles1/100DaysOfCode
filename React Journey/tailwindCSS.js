@@ -285,7 +285,7 @@ y             i. Container class: set max width of an element to match the min-w
                            justify-center - justify items along the center of the container's main axis
                            justify-end - against end on container's main axis
                            justify-between - equal space btn each item.
-                           justify-around - equal space on each sode of each item.
+                           justify-around - equal space on each side of each item.
                            justify-evenly 
                            justify-stretch - content items to fill all the available space along the container's main axis
                            justify-normal - pack content in their default position as if no justify-content
@@ -805,8 +805,78 @@ y             i. Container class: set max width of an element to match the min-w
                         control scroll behavior
                         syntax; scroll-smooth
 
-                    h. scroll margin 
-                        
+ */
+
+ /* 
+    Day 36 of 100 Days of Code
+                    h. scroll margin
+                        controls scroll effect around items in a snap container.
+                        when stop scrolling, the scrolling quickly adjust and stop at a specified distance btn snap position and the container
+                        syntax; scroll-m{l|r}-{size} ie scroll-ml-6  // sets scroll margin
+                    
+                    i. scroll padding
+                        contols an element's scroll scroll offset within a snap container
+                        syntax; scroll-p{side}-{size} // sets scroll offset of an element within a snap container. 
+
+                    j. scroll snap align
+                        snap-center 
+                        snap-start
+                        snap-end
+                    
+                    k. scroll snap stop
+                        controls whether you can skip past possible snap positions
+                        syntax; snap-always & snap-mandatory // force snap position stops
+                                snap-normal // skipping snap position stops
+
+                    l. scroll snap type
+                        snap-x  // horizontal scroll snapping within an element. must be used in conjunction with snap alignment in child elements
+                        snap-mandatory
+                        snap-proximity // rest on snap points close in proximity
+
+                    m. touch action 
+                        controlling how an element can be scrolled and zoomed on touchscreens
+                        syntax; touch-{auto|none|pan-x|pan-y}
+
+                    n. user select
+                        controls whether a user can select text in an element
+                        syntax; select-none
+                                select-text
+                                select-auto
+
+                    0. will change
+                        optimizing upcoming animations of elements that are expected to change.
+                        syntax; will-change-scoll, will-change-contents & will-change-transform
+                        after use to be removed by will-change-auto
+                        avoid frequent use of will change utilities.
+
+        1. SVG
+                    a. fill
+                        styling the fill of SVG elements
+                        syntax; fill-{color} // change fill color
+                            
+                    b. stroke
+                        stroke-{color}
+
+                    c. stroke width
+                        stroke-{width}
+
+                    d. screen readers
+                        sr-only 
+                    
+                    e. forced color adjust
+                        forced-color-adjust-none // opitng out of forced colors
+                        forced-color-adjust-auto // restore forced color
+
+        2. Official Plugings
+                    a. @tailwindcss/typography
+                        installation - npm install -D @tailwindcss/typography
+                        Add to tailwind.config.js 
+                        Basic usage
+                    b. forms
+
+    KEY TAKEAWAY
+    Tailwind CSS does not support dynamic class names out of the box because it generates its classes at buildtim, not runtime. 
+    to change color based on a state variable  use inline styles instead
 
 
  */

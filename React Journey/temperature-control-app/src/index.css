@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.cold {
+	background: #035aa6;
+}
+
+.hot {
+	background: #ff5200;
+}
+
+.disabled {
+	background-color: silver;
+}
