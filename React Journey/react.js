@@ -547,9 +547,10 @@
                   export default function Counter() {
                         const [count, setCount] = useState(0);
 
-                        useEffect(() =>{
+                        useEffect(() => {
                             alert(`Count: ${count}`);
                         });
+
                         const handleClick = () => {
                             setCount((prevCount) =>  prevCount + 1);
                         };
@@ -572,7 +573,7 @@
                   useEffect(() => {
                           document.addEventListener('click', increment);
                         return () => {
-                                document.removeEventListener('click, increment);
+                                document.removeEventListener('click', increment);
                         }
                   })
 
@@ -827,4 +828,249 @@
                 c. Multiple Stylesheets
                    best to be modular by creating a separate stylesheet for each component
                    - implemented by using modules
+*/
+
+/* 
+     DAY 61 of 100 Days of Code
+        1. Introduction to Redux
+            Redux is a state management library that follows the Flux architecture.ie shared information is consolidated within a single object instead of being scattered across individual components.
+
+                a. One-Way Data Flow
+                   redux seprates the state, the view, and actions by requiring that the state be managed by a single source.
+                   requests to change are sent to this single source by view components in form of actions.
+
+                   Actions - State - View -back to Actions
+
+                b. State
+                   current information that drives the app's behaviour and appearance.
+                   - can be of any JS type: number,, string, boolean, array, and object.
+                   Syntax: const state = [ 'Take 5', 'Scourge', 'GENeRAL-REX'];
+
+                c. Actions (requests to change state)
+                    describe an event or an action that has occured and provide information about what needs to be updated in the application's state.
+                    - simply actions are how Redux manages and update the state
+                    Syntax:
+                        const addName = {
+                                type: 'names/addName',
+                                payload: 'Decepticon Barricade'
+                        }
+
+                d. Reducers(how changes are carried out)
+                    a plain JS function that defines how current state and action are used in combination to create a new state.
+
+                    Facts about reducers
+                        i. a js function.
+                        ii. defines app's next state given current state and specific action
+                        iii. returns default initial state in no action provided
+                        iv. returns current state if the action isnot recognized
+
+                   Syntax;
+                        // Define reducer here
+                        const reducer = (state = initialState, action) => {
+                                switch (action.type) {
+                                        case 'songs/addSong': {
+                                          return [ ...state, action.payload];
+                                        }
+                                        case 'songs/removeSong': {
+                                        const currentState = [...state];
+                                        const newState = currentState.filter(song => song !== action.payload);
+                                          return newState;
+                                        }
+                                        default: {
+                                          return state;
+                                        }
+                                }
+                        }
+
+                        const initialState = [ 'Take Five', 'Claire de Lune', 'Respect' ];
+
+                        const addNewSong = {
+                                type: 'songs/addSong',
+                                payload: 'Halo'
+                        };
+
+                        const removeSong = {
+                                type: 'songs/removeSong',
+                                payload: 'Take Five'
+                        };
+
+                        const removeAll = {
+                                type: 'songs/removeAll'
+                        }
+
+                e. Rules of Reducers
+                        i. only calculate the new stat value based on the state and action arguments
+                        ii. not allowed to modify the existing state, instead they must copy the existing state and make changes to the copied values.
+                        iii. must not do asynchronous logic or have side effects.
+
+                f. immutable updates and pure functions
+                        reducers must perform immutable updates and be pure functions.
+                        Being immutable means the function doesn't alter original arguments
+                        Syntax: mutable 
+                                const mutableUpdater = (obj) => {
+                                        obj.completed = !obj.completed;
+                                        return obj;
+                                }
+
+                                immutable
+                                const immutableUpdater = (obj) => {
+                                        return {
+                                                ...obj,
+                                                completed: !obj.completed
+                                        }
+                                }
+                
+                g. Store
+                   serves as a container for state, initializes state with default value. it also contains the reducer
+
+        2. Redux API
+                a. createStore() method
+                                store.getState()
+                                store.dispatch(action)
+                                store.subscribe(listener)
+                                store.replaceReducer(nextReducer)
+                  i. create store
+                        Syntax: // Create the store here
+                                export const store = createStore(countReducer);
+
+                  ii. Dispatch actions to store     
+                       indicating that you wish to update the state.
+                       Syntax: store.dispatch({ type: 'decrement'});
+                                console.log(store.getState());     
+
+                  iii. Action creators
+                         - function that returns an action object with a type property.
+                         after which they are called and passed directly to the store through store.dispatch()
+                         - reduce repition of dispatching actions of the same type multiple times or from multiple places.
+                         Syntax: export const increment = () => {
+                                        return { type: 'increment' };
+                                }
+                                store.dispatch(increment());
+
+                  iv. Respond to state changes
+                        Syntax: // Listener function
+                                const printCountStatus = () = {
+                                        console.log(`The count is ${store.getState}`)
+                                }
+                                // Subscribe listener function to store
+                                store.subscribe(printCountStatus);
+
+                  v. Connecting a Redux Store to a UI
+                        > Create a Redux store
+                        > Render the initial state of the application.
+                        > Subscribe to updates. Inside the subscription callback:
+                               - Get the current store state
+                               - Select the data needed by this piece of UI
+                               - Update the UI with the data
+                        > Respond to UI events by dispatching Redux actions
+                
+        //////////// Day 61
+                b. Strategies for Complex State
+                        Redux is best for complex applications with large data
+
+                   i. Slices
+                      top-level state properties, they typically represent a different feature of the entire application.
+                      can be of any data value: string, array of objects.
+
+                   ii. Actions & Payloads For Complex state.
+                       define which changes can occur to the app's state
+                        -identify type of actions that will be dispatched
+                        -what payload they will carry
+                        -lastly make action creators.
+                
+                   iii. Immutable Updates & Complex State
+                         - same rules apply to the reducer function.
+                         - consider utilizing filter() and map(). 
+
+                   iv. Reducer Composition
+                         as application's state becomes complex a single reducer becomes impractical, a pattern is used to manage it all.
+                         in which individual slice reducers - responsible for updating only one slice of the application's state.
+                         their results are recombined by a rootRedcuer.
+
+                         InitialState obj replaced by individual initialSliceName. the default values for each slice reducer's slice of state
+                         all slice reducers are called.
+
+                         Syntax;
+                         // Reducers
+                        ////////////////////////////////////////
+
+                        const initialAllRecipes = [];
+                        const allRecipesReducer = (allRecipes = initialAllRecipes, action) => {
+                                switch(action.type) {
+                                        case 'allRecipes/loadData':
+                                                return action.payload
+                                        default:
+                                                return allRecipes;
+                                }
+                        }
+
+                        const initialSearchTerm = '';
+                        const searchTermReducer = (searchTerm = initialSearchTerm, action) => {
+                                switch(action.type) {
+                                        case 'searchTerm/setSearchTerm':
+                                                return action.payload;
+                                        case 'searchTerm/clearSearchTerm':
+                                                return '';
+                                        default: 
+                                                return searchTerm;
+                                }
+                        }
+
+                        // Create the initial state for this reducer.
+                        const initialFavoriteRecipes = [];
+                        const favoriteRecipesReducer = (favoriteRecipes = initialFavoriteRecipes, action) => {
+                                switch(action.type) {
+                                        // Add action.type cases here.
+                                        case 'favoriteRecipes/addRecipe':
+                                                return [...favoriteRecipes, action.payload];
+                                        case 'favoriteRecipes/removeRecipe':
+                                                return favoriteRecipes.filter(element => element.id !== action.payload.id);
+                                        default:
+                                                return favoriteRecipes
+                                }
+                        }
+
+
+                        const rootReducer = (state = {}, action) => {
+                                const nextState = {
+                                        allRecipes: allRecipesReducer(state.allRecipes, action),
+                                        searchTerm: searchTermReducer(state.searchTerm, action),
+                                        // Add in the favoriteRecipes slice using the 
+                                        // favoriteRecipesReducer function. 
+                                        favoriteRecipes: favoriteRecipesReducer(state.favoriteRecipes, action)
+                                } 
+                                return nextState;
+                        }
+
+                        export const store = createStore(rootReducer);
+                
+                  v. combineReducers
+                        // Create your `rootReducer` here using combineReducers().
+                        const reducers = {
+                                allRecipes: allRecipesReducer,
+                                favoriteRecipes: favoriteRecipesReducer,
+                                searchTerm: searchTermReducer
+                        };
+
+                        const rootReducer = combineReducers(reducers);
+                        export const store = createStore(rootReducer);
+
+                 vi. File strucuture for Redux
+                      Redux Ducks pattern
+                        src/
+                        |-- index.js
+                        |-- app/
+                        |-- store.js
+                        |-- features/
+                        |-- featureA/
+                                |-- featureASlice.js
+                        |-- featureB/
+                                |-- featureBSlice.js
+
+                        
+
+                        
+                        
+
+                
 */
