@@ -980,9 +980,10 @@
                 
                    iii. Immutable Updates & Complex State
                          - same rules apply to the reducer function.
-                         - consider utilizing filter() and map(). 
+                         - consider utilizing array methods such as filter(), slice and map() to immutable update state. 
 
                    iv. Reducer Composition
+                         - a design pattern for managing a Redux store with multiple slices.
                          as application's state becomes complex a single reducer becomes impractical, a pattern is used to manage it all.
                          in which individual slice reducers - responsible for updating only one slice of the application's state.
                          their results are recombined by a rootRedcuer.
@@ -1056,7 +1057,10 @@
                         export const store = createStore(rootReducer);
 
                  vi. File strucuture for Redux
-                      Redux Ducks pattern
+                      Each slice is into a separate file.
+                      then they are imported into the store.js
+
+                      Redux Ducks pattern - slice reducers are written in separate files.
                         src/
                         |-- index.js
                         |-- app/
@@ -1066,11 +1070,97 @@
                                 |-- featureASlice.js
                         |-- featureB/
                                 |-- featureBSlice.js
+                            
+*/
 
-                        
+/*
+   Day 63 of 100 Days of Code
+                 vii. Passing Store Data Through the Top-level React Component
+                      Slice of the store's state and dispatch need to be passed to the top level component i.e <App />
+                        lastly subscribe render to listen for changes from the store
+                        |-- app/
+                        |-- App.js (+)
+                        |-- store.js
+                        |-- components/
+                        |-- FavoriteButton.js (+)
+                        |-- Recipe.js (+)
+                        |-- features/
+                        |-- allRecipes/
+                                |-- AllRecipes.js (+)
+                                |-- allRecipesSlice.js
+                        |-- favoriteRecipes/
+                                |-- FavoriteRecipes.js (+)
+                                |-- favoriteRecipesSlice.js
+                        |-- searchTerm/
+                                |-- SearchTerm.js (+)
+                                |-- searchTermSlice.js
 
-                        
-                        
+                      Each feature related component file is stored in the same directory as the slice file
 
-                
+                 viii. Using Store Data Within Feature
+                        Pluging a feature into a Redux App
+                        i. import feature-component into top-level App.js file
+
+        1. Redux Toolkit
+                makes constructing of a Redux app a breeze.
+                npm install @reduxjs/toolkit - install Redux Toolkit package
+
+                i. Refactoring slices with createSlice()
+                        imported from @reduxjs/toolkit
+
+                        syntax;
+                        const options = {
+                                name: 'favoriteRecipes',
+                                initialState: [],
+                                reducers: {
+                                        addRecipe: (state, action) =>{
+                                                return [...state, action.payload];
+                                        },
+                                        removeRecipe: (state, action) => {
+                                                return state.filter(recipe => recipe.id !== action.payload.id);
+                                        }
+                                }
+                        };
+                        export const favoriteRecipesSlice = createSlice(options);
+
+                ii. Immer - writing mutable code with immer
+                        -library for writing immutable code.
+                        lets you write code as if you are modifying directly the state, but under the hood it ensures changes are made
+                        immutably
+
+                iii. Returned Objects and Auto-Generated Actions
+                        - With createSlice(), returns an obj as such;
+                                name:- holds a string used as prefix for generated action types.
+                                reducer:- completed reducer function
+                                actions:- auto-generated action
+                        
+                        {
+                                name: 'todos',
+                                reducer: (state, action) => newState,
+                                actions: {
+                                        addTodo: (payload) => ({type: 'todos/addTodo', payload}),
+                                        toggleTodo: (payload) => ({type: 'todos/toggleTodo', payload})
+                                },
+                        }
+                        - Actions creators need to be exported. Examples as follows;
+                        Syntax; export const { addRecipe, removeRecipe } = favoriteRecipesSlice.actions
+
+                iv. Returned objects and Reducers
+                        Syntax: export default favoriteRecipesSlice.reducer;
+
+                v. Converting the store to Use configureStore()
+                        a function that sets up a Redux store. it wraps around createStore() and the combineReducers()
+                        mostly automatic
+                        ## Explore more properties of the object
+
+                        Syntax;
+                        const store = configureStore({
+                                reducer: {
+                                        favoriteRecipes: favoriteRecipesReducer,
+                                        searchTerm: searchTermReducer,
+                                        allRecipes: allRecipesReducer
+                                }
+                        });
+
+                        export default store;
 */
