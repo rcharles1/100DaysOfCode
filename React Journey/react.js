@@ -844,7 +844,7 @@
                 b. State
                    current information that drives the app's behaviour and appearance.
                    - can be of any JS type: number,, string, boolean, array, and object.
-                   Syntax: const state = [ 'Take 5', 'Scourge', 'GENeRAL-REX'];
+                   Syntax: const state = [ 'HawkEye', 'Scourge', 'GENeRAL-REX'];
 
                 c. Actions (requests to change state)
                     describe an event or an action that has occured and provide information about what needs to be updated in the application's state.
@@ -899,7 +899,7 @@
                         }
 
                 e. Rules of Reducers
-                        i. only calculate the new stat value based on the state and action arguments
+                        i. only calculate the new state value based on the state and action arguments
                         ii. not allowed to modify the existing state, instead they must copy the existing state and make changes to the copied values.
                         iii. must not do asynchronous logic or have side effects.
 
@@ -1017,7 +1017,6 @@
                                 }
                         }
 
-                        // Create the initial state for this reducer.
                         const initialFavoriteRecipes = [];
                         const favoriteRecipesReducer = (favoriteRecipes = initialFavoriteRecipes, action) => {
                                 switch(action.type) {
@@ -1031,13 +1030,10 @@
                                 }
                         }
 
-
                         const rootReducer = (state = {}, action) => {
                                 const nextState = {
                                         allRecipes: allRecipesReducer(state.allRecipes, action),
                                         searchTerm: searchTermReducer(state.searchTerm, action),
-                                        // Add in the favoriteRecipes slice using the 
-                                        // favoriteRecipesReducer function. 
                                         favoriteRecipes: favoriteRecipesReducer(state.favoriteRecipes, action)
                                 } 
                                 return nextState;
@@ -1066,10 +1062,10 @@
                         |-- app/
                         |-- store.js
                         |-- features/
-                        |-- featureA/
-                                |-- featureASlice.js
-                        |-- featureB/
-                                |-- featureBSlice.js
+                                |-- featureA/
+                                        |-- featureASlice.js
+                                |-- featureB/
+                                        |-- featureBSlice.js
                             
 */
 
@@ -1079,21 +1075,21 @@
                       Slice of the store's state and dispatch need to be passed to the top level component i.e <App />
                         lastly subscribe render to listen for changes from the store
                         |-- app/
-                        |-- App.js (+)
-                        |-- store.js
+                                |-- App.js (+)
+                                |-- store.js
                         |-- components/
-                        |-- FavoriteButton.js (+)
-                        |-- Recipe.js (+)
+                                |-- FavoriteButton.js (+)
+                                |-- Recipe.js (+)
                         |-- features/
-                        |-- allRecipes/
-                                |-- AllRecipes.js (+)
-                                |-- allRecipesSlice.js
-                        |-- favoriteRecipes/
-                                |-- FavoriteRecipes.js (+)
-                                |-- favoriteRecipesSlice.js
-                        |-- searchTerm/
-                                |-- SearchTerm.js (+)
-                                |-- searchTermSlice.js
+                                |-- allRecipes/
+                                        |-- AllRecipes.js (+)
+                                        |-- allRecipesSlice.js
+                                |-- favoriteRecipes/
+                                        |-- FavoriteRecipes.js (+)
+                                        |-- favoriteRecipesSlice.js
+                                |-- searchTerm/
+                                        |-- SearchTerm.js (+)
+                                        |-- searchTermSlice.js
 
                       Each feature related component file is stored in the same directory as the slice file
 
