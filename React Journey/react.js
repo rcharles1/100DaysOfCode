@@ -778,7 +778,7 @@
                 h. useNavigate
                    - an imperative mechanism for updating the browser's location.
                    - imported from the react-router-dom
-                   - ideal for navigating users through their hostory stack.
+                   - ideal for navigating users through their history stack.
                    eg; navigate(-1) - previous URL
                        navigate(1) - next URL
                        navigate(-3) - navigate 3 URLs back.
