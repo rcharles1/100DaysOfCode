@@ -1,0 +1,43 @@
+/// MongoDB Tutorial Notes
+
+Day 79 - Introduction
+    Unlike MySQL, MongoDB is a NoSQL Database. 
+    It uses collections, and documents as opposed to tables and records
+    - possible to create variables
+
+    Commands
+        i. use dbName - switchs btn Databases
+        ii. show collections - lists all collections.
+        iii. help - lists all Commands
+        iv. exit - exit the shell
+    
+    CRUD
+    Create - 
+        i. db.books.insertOne({title: 'The Color', author: 'Terry'})
+        ii. db.books.insertMany([(documents)])
+
+    Update - updateOne({_id: ObjectId("01094975435")}, {$set: {rating: 9, pages: 380}})
+            updateMany({author: "John Doe"}, {$set: {author: "Yoshi"}})
+            $pull, $push
+    Delete - deleteOne()
+    deleteOne({_id: ObjectId})
+
+    
+    find() - returns documents // filters
+        Syntax: db.books.find({author: 'Robin', rating: 9})
+                db.books.find({author: 'Robin', rating: 9}, {title:1, author:1}) // returns specific fields
+
+    count()
+    limit(3)
+    sort({ title: 1}) //Sorts either ascending(1) or descending(-1)
+
+    Nested documents
+        - structure 
+        db.books.find({author: 'Robin', rating: 9, reviews: [{name: 'Yoshi', body:'paragraphs'}, {name: 'Grand', body:'paragraphs'} ]}) 
+
+    Operators ($gt, $lt, $lte, $gte, $or, $in, $nin, $set, $inc //Increment or decrement(-1), $pull, $push )
+    db.books.find({ rating: {$gt: 6}}) // returns rating greater than 6
+     db.books.find({$or: [{rating:7}, {rating:9}]})
+
+     Querying nested objects - uses dot notation
+     db.books.find({"reviews.name":"luigi"})
