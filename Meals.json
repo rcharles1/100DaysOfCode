@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Peperoni Pizza",
+        "type": "Pizza",
+        "course": "Main Course",
+        "category": ["Italian", "Lunch", "Dinner","Quick Bites", "Baked"],
+        "rating": "8",
+        "description": "Pizza is a beloved meal enjoyed by people all over the world. It typically consists of a round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients such as meats, vegetables, and condiments. The dough is then baked at a high temperature, traditionally in a wood-fired oven. Eating pizza can be different each time; it can be a simple and fast snack or a fancy and special meal.",
+        "img": "peperoni-pizza",
+        "nutritionalInfo": {
+            "calories": "313 kcal per slice, roughly same as sandwitch ",
+            "cholestrol": "28mg, less than in an egg",
+            "fat": "13g",
+            "fiber": "2.6g",
+            "sugars": "3.6g"
+        },
+        "wait-time": "15 to 20 minutes",
+        "Popularity": "based on number or times ordered",
+        "SpecialNotes": {
+            "history": {
+                "intro": "Ancient Origins:\\nThe concept of flatbread with toppings has ancient roots, with variations found in the cuisines of the Egyptians, Romans, and Greek",
+                "body": "Modern Evolution:\\nThe pizza we know today originated in Naples, Italy, between the 16th and mid-18th century. It was a dish for the poor, sold as street food before becoming a kitchen recipe",
+                "conclusion": "Global Spread:\\nAfter World War II, Allied troops stationed in Italy brought the love for pizza back to their home countries, contributing to its global popularity"
+            },
+            "culturalMerit": "In Italy, pizza is a source of national pride and is associated with social gatherings and special occassions.",
+            "pairings": [
+                {
+                    "pairingDish": "Juice",
+                    "image": "juice-cover"
+                },
+                {
+                    "pairingDish": "Wine",
+                    "image": "wine-cover"
+                },
+                {
+                    "pairingDish": "Beer",
+                    "image": "beer-cover"
+                }
+            ]
+        },
+        "restaurants": ["661a8aee35933a9a927a76fb","661a8aee35933a9a927a770f", "661a8aee35933a9a927a76fd", "661a8aee35933a9a927a76fe"] 
+    },
+    {
+        "name": "Beef Burger",
+        "type": "Burger",
+        "course": "Main Course",
+        "category": ["American", "Lunch", "Dinner","Quick Bites", "Grilled"],
+        "rating": "7",
+        "description": "A beef burger is a popular type of sandwich that consists of one or more cooked patties of ground beef, usually seasoned with various spices, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "img": "beef-burger",
+        "nutritionalInfo": {
+            "calories": "418 to 540 calories",
+            "proteins": "34g",
+            "cholestrol": "80mg",
+            "fat": "27g",
+            "fiber": "1g",
+            "sugars": "4.4g"
+        },
+        "wait-time": "15 to 30 minutes",
+        "Popularity": "based on number or times ordered",
+        "SpecialNotes": {
+            "history": {
+                "intro": "The hamburger has spread from continent to continent, perhaps because it matches familiar elements in different culinary cultures",
+                "body": "",
+                "conclusion": "This global culinary culture has been produced, in part, by the concept of selling processed food, first launched in the 1920s by the White Castle restaurant chain and its founder Edgar Waldo “Billy” Ingram and then refined by McDonald’s in the 1940s"
+            },
+            "culturalMerit": "Burgers have become a symbol of freedom and independence in the United States. Burgers have transcended its origins to becoming one of the most beloved foods in modern society",
+            "pairings": [
+                {
+                    "pairingDish": "Fries",
+                    "image": "fries-cover"
+                },
+                {
+                    "pairingDish": "Soda",
+                    "image": "soda-cover"
+                },
+                {
+                    "pairingDish": "Juice",
+                    "image": "juice-cover"
+                },
+                {
+                    "pairingDish": "Beer",
+                    "image": "beer-cover"
+                }
+            ]
+        },
+        "restaurants": ["661a8aee35933a9a927a76fb","661a8aee35933a9a927a7707", "661a8aee35933a9a927a770e", "661a8aee35933a9a927a770d", "661a8aee35933a9a927a76fd","661a8aee35933a9a927a76fe"] 
+    }
+
+]
