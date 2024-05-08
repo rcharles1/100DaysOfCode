@@ -1,7 +1,7 @@
 [
     {
         "name": "Coca-Cola",
-        "category": ["Soft Drinks", "Soda"],
+        "category": ["Soft Drinks", "Soda", "Drinks"],
         "type": "Non-Alcoholic",
         "temperature": "Cold",
         "brand": "The Coca-Cola Company",

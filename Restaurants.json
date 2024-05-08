@@ -1,0 +1,1730 @@
+[ 
+    {
+        "name": "Kitisa's Restaurant",
+        "description": "Welcome to Kitisa, your go-to fast-food restaurant in Tanzania! Located in the coastal city of City, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 8,
+        "details": {
+            "address":[ "Mkwakwani Stadium, Shop 48"],
+            "hours": {
+                "openhours": "8:30 AM - 11:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0721000000", "0751000000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["African", "Indian", "Smoothies & Juice Bar", "Beverages", "Arab"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/img1.webp"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates": [-5.072861, 39.102]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 1,
+            "parking": 0,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Stewie Griffin",
+                "rating": 7,
+                "comment": "The best place to dine in Tanga. Love their customer service"
+            },
+            {
+                "reviewer": "Another Reviewer",
+                "rating": 4,
+                "comment": "Good service."
+            }
+        ]
+    },
+    {
+        "name": "Arbab Tanga Seafood",
+        "description": "Welcome to Arbab, your go-to fast-food restaurant in Tanzania! Located in the coastla city of Tanga, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 10,
+        "details": {
+            "address": ["Central St, Mkwakwani"],
+            "hours": {
+                "openhours": "8:00 AM - 11:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0742000000", "0715000000" ],
+            "platforms": {
+                "website": "https://www.arbabtangaseafood.co.tz/"
+            }
+        },
+        "cuisine": ["African", "Smoothies & Juice Bar", "Indian", "Arab"],
+        "menu": "/Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/seafood.webp"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates": [-5.072124650959347, 39.10225363347158]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 1,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Another Reviewer",
+                "rating": 9,
+                "comment": "Excellent service."
+            }
+        ]
+    },
+    {
+        "name": "Bab-Salum Barbeque",
+        "description": "Welcome to Bab-Salum BBQ, your go-to fast-food restaurant in Tanzania! Located in the coastal city of Tanga, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 10,
+        "details": {
+            "address": ["Chumbageni"],
+            "hours": {
+                "openhours": "1:00 PM - 00:00 AM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0731000000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["African", "Smoothies & Juice Bar", "Indian", "Arab","BBQ & Grills"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/grills.webp",
+            "img2": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/bbq.webp"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates" :[-5.070861495168673, 39.08890905955649]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer",
+                "rating": 7,
+                "comment": "Good service."
+            }
+        ]
+    },
+    {
+        "name": "Forodhani Park Restaurants",
+        "description": "Welcome to Forodhani, your go-to fast-food restaurant in Tanzania! Located in the coastal city of Tanga, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 7,
+        "details": {
+            "address": ["Independence Ave"],
+            "hours": {
+                "openhours": "1:00 PM - 23:30 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0781000000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Mchemsho", "Beverages", "Indian", "Arab", "Nyama Choma"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/juice+bar.webp"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates" : [-5.070084810425133, 39.10133321862429]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 0,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 1
+        },
+        "reviews": [
+            {
+                "reviewer": "Angry Reviewer",
+                "rating": 4,
+                "comment": "Slow service."
+            }
+        ]
+    },
+    {
+        "name": "Kwa Manka",
+        "description": "Welcome to Kwa Manka, your go-to fast-food restaurant in Tanzania! Located in the coastal city of Tanga, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 10,
+        "details": {
+            "address": ["Street No.7"],
+            "hours": {
+                "openhours": "8:00 AM - 16:00 PM",
+                "opendays": "Monday - Saturday"
+            },
+            "phone": ["0732000200" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["African", "Beverages", "Mchemsho","Nyama Choma"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/african.webp"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates" : [-5.077453177476727, 39.10015820470845]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "heading": "Food lover 255",
+                "body": "The best place to dine in Tanga. Love their customer service"
+            },
+            {
+                "heading": "Worker 1",
+                "body": "The best place to dine in Tanga. Love their customer service"
+            },
+            {
+                "heading": "Stewie",
+                "body": "The best place to dine in Tanga. Love their customer service"
+            },
+            {
+                "heading": "Brian",
+                "body": "The best place to dine in Tanga. Love their customer service"
+            }
+        ]
+    },
+    {
+        "name": "Tanga Pazuri",
+        "description": "Welcome to Tanga Pazuri, your go-to fast-food restaurant in Tanzania! Located in the coastal city of Tanga, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 9,
+        "details": {
+            "address": ["NaneNane Grounds"],
+            "hours": {
+                "openhours": "8:00 PM - 00:00 AM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0731000500" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Bar", "Mchemsho", "Kitimoto","Nyama Choma","Beverages"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/beer.webp",
+            "img2": "path"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates" : [-5.078503902409351, 39.08688889285668]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Another Person",
+                "rating": 8,
+                "comment": "Good service."
+            },
+            {
+                "reviewer": "S. Reviewer",
+                "rating": 4,
+                "comment": "Poor service."
+            }
+        ]
+    },
+    {
+        "name": "Ben Bistro",
+        "description": "Welcome to Ben Bistro, your go-to fast-food restaurant in Tanzania! Located in the coastal city of Tanga, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 10,
+        "details": {
+            "address": ["Guinea Rd"],
+            "hours": {
+                "openhours": "1:00 PM - 1:00 AM",
+                "opendays": "Tuesday - Sunday"
+            },
+            "phone": ["0761000000" ],
+            "platforms": {
+                "website": "No details"
+            }
+        },
+        "cuisine": ["Bar","Nyama Choma", "Beverages"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/kvant.webp"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates" : [-5.073391524171023, 39.103109763595135]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 0,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 0,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Another Reviewer",
+                "rating": 10,
+                "comment": "Excellent music mix."
+            },
+            {
+                "reviewer": "AngryMan57",
+                "rating": 7,
+                "comment": "Loved the place."
+            }
+        ]
+    },
+    {
+        "name": "Signature Lounge",
+        "description": "Welcome to Signature Bar, your go-to fast-food restaurant in Tanzania! Located in the coastal city of Tanga, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 7,
+        "details": {
+            "address": ["Mkwakwani Rd"],
+            "hours": {
+                "openhours": "12:00 PM - 00:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0781000000" ],
+            "platforms": {
+                "website": "No details"
+            }
+        },
+        "cuisine": ["Bar","Nyama Choma","Beverages"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/bar.webp"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates" : [-5.073413923634631, 39.102199939450664]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer Name",
+                "rating": 7.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 8,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "The Kitchen Cafe",
+        "description": "Welcome to Bab-Salum BBQ, your go-to fast-food restaurant in Tanzania! Located in the coastal city of Tanga, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 10,
+        "details": {
+            "address":[ "Mkwakwani Rd"],
+            "hours": {
+                "openhours": "8:00 PM - 22:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0777000000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Bakery Foods", "Breakfast Foods", "Salads", "Soups", "Coffee & Tea"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/the-kitchen-cafe1.webp",
+            "img2": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/the-kitchen-cafe2.webp",
+            "img3": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/the-kitchen-cafe3.webp"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates" : [-5.071655106817295, 39.10231923068848]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 1,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer Name",
+                "rating": 7.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 8,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "Upendo Juice",
+        "description": "Welcome to Upendo Juice, your go-to fast-food restaurant in Tanzania! Located in the coastal city of Tanga, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 10,
+        "details": {
+            "address":[ "Street No.7"],
+            "hours": {
+                "openhours": "8:00 PM - 8:00 PM",
+                "opendays": "Monday - Saturday"
+            },
+            "phone": ["0777000000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": [ "Smoothies & Juice Bar", "Beverages"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/orange-juice.webp"
+        },
+        "locationData": {
+            "region": "Tanga",
+            "nickname": "The love region",
+            "district": "Tanga City",
+            "country": "Tanzania",
+            "coordinates" : [-5.071655106817295, 39.10231923068848]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 0,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 0,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer Name",
+                "rating": 7.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 8,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "Ninos Resturant",
+        "description": "Welcome to the founders of Visinia, Ninos restaurant! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 10,
+        "details": {
+            "address":[ "22 Uporoto St, Morocco"],
+            "hours": {
+                "openhours": "12:00 PM - 23:30 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0731000000" ],
+            "platforms": {
+                "website": "No Details",
+                "ig": ""
+            }
+        },
+        "cuisine": ["Indian", "Arab", "Visinia", "Beverages"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/ninos1.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam",
+            "nickname": "The Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Kinondoni",
+            "country": "Tanzania",
+            "coordinates": [-6.777851654680197, 39.2623695247883]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 1,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 0,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer Name",
+                "rating": 7.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 8,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "Sanara Grill",
+        "description": "Welcome to Sanara Grills! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 9,
+        "details": {
+            "address": ["Mwai Kibaki Rd, Near Feza Nursery School"],
+            "hours": {
+                "openhours": "12:00 PM - 23:00 PM",
+                "opendays": "Tuesday - Sunday"
+            },
+            "phone": ["0737000700" ],
+            "platforms": {
+                "website": "https://triweb.club/sanara",
+                "ig":""
+            }
+        },
+        "cuisine": ["Nyama Choma", "Arab", "Visinia"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/sanara1.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam",
+            "nickname": "The Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Mikocheni",
+            "country": "Tanzania",
+            "coordinates": [-6.7630915304490875, 39.256514295952094]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 1
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer",
+                "rating": 8.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 8,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "Shawarma 27",
+        "description": "Welcome to Shawarma7 restaurant! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 9,
+        "details": {
+            "address": ["Lufungira, Mori Rd"],
+            "hours": {
+                "openhours": "12:00 PM - 23:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0731900900" ],
+            "platforms": {
+                "website": "No details"
+            }
+        },
+        "cuisine": ["Indian", "Arab", "Nyama Choma"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/shawarma.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam",
+            "nickname": "Tanzania's Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Kawe",
+            "country": "Tanzania",
+            "coordinates": [-6.771173811643097, 39.224107150380824]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 1,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 0,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer Name",
+                "rating": 7.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 8,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "G-Man",
+                "rating": 5.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Lois",
+                "rating": 6,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "Bao Cafe",
+        "description": "Welcome to Bao Cafe ! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 10,
+        "details": {
+            "address": ["Masaki", "JNIA"],
+            "hours": {
+                "openhours": "24 Hrs",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0731201000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Bakery Foods", "Breakfast items", "Salads", "Coffee & Tea"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/bao1.webp",
+            "img2": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/bao2.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Ilala",
+            "ward": "Kipawa",
+            "country": "Tanzania",
+            "coordinates": [-6.865959965933089, 39.207226906720024]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 1,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer Name",
+                "rating": 7.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 8,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "Lock & Barrel",
+        "description": "Welcome to the finest gastropub, Lock & Barrel restaurant! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 8.5,
+        "details": {
+            "address": ["Haile Selassie Rd, Oysterbay"],
+            "hours": {
+                "openhours": "9:00 AM - 22:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0731000000" ],
+            "platforms": {
+                "website": "89676re5rafg"
+            }
+        },
+        "cuisine": ["Indian", "Arab", "Beverages"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/gastropubs.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Msasani",
+            "country": "Tanzania",
+            "coordinates": [-6.766617985090397, 39.275230193397995]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 1,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 0,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer Name",
+                "rating": 7.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 8,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "Mamboz Masaki",
+        "description": "Welcome to the finest gastropub, Lock & Barrel restaurant! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 8.6,
+        "details": {
+            "address":[ "Haile Selassie Rd, Oysterbay"],
+            "hours": {
+                "openhours": "9:00 AM - 23:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0731870000" ],
+            "platforms": {
+                "website": "89676re5rafg"
+            }
+        },
+        "cuisine": ["Chinese Fusion", "Asian", "Nyama Choma - BBQ & Grills"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/food-nyama-choma+(1).webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Msasani",
+            "country": "Tanzania",
+            "coordinates": [-6.769295497680904, 39.2748929302488]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Reviewer Name",
+                "rating": 7.5,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 9,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "DownHill Restaurant",
+        "description": "Welcome to DownHill restaurant! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 8,
+        "details": {
+            "address":[ "Sam Nujoma Rd, Mlimani City"],
+            "hours": {
+                "openhours": "24 Hrs",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0732870000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["African", "Mchemsho", "Nyama Choma - Grills"],
+        "menu": "https://drive.google.com/file/d/1S9rMT8PEMtlmp7CjI9aAvIWimWoJYPdW/view",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/african.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Kawe",
+            "country": "Tanzania",
+            "coordinates": [-6.774576505835583, 39.22089602206922]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Shelby",
+                "rating": 6,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Stewie",
+                "rating": 7,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "The Place",
+        "description": "Welcome to Food Palace! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 6,
+        "details": {
+            "address":[ "Sam Nujoma Rd, Mlimani City"],
+            "hours": {
+                "openhours": "7:30 AM - 23:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0760070000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["African", "Mchemsho", "Nyama Choma - Grills"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/african.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Kawe",
+            "country": "Tanzania",
+            "coordinates": [-6.774576505835583, 39.22089602206922]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            
+        ]
+    },
+    {
+        "name": "Burger53",
+        "description": "Welcome to DownHill restaurant! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 7,
+        "details": {
+            "address":[ "Mlimani City Parking Lot", "Ali Khan Rd"],
+            "hours": {
+                "openhours": "11 AM - 12 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0732870000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Italian", "Quick Eats", "Bakery items"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/burger53.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Ilala",
+            "ward": "Upanga East",
+            "country": "Tanzania",
+            "coordinates": [
+                [-6.773474851681752, 39.21940344268583],
+                [-6.808712361200665, 39.284931345887045]
+            ]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 1,
+            "parking": 1,
+            "childrenGrounds": 1
+        },
+        "reviews": [
+            {
+                "reviewer": "Shelby",
+                "rating": 6,
+                "comment": "Great food!"
+            },
+            {
+                "reviewer": "Harvey",
+                "rating": 7,
+                "comment": "Great food!"
+            }
+        ]
+    },
+    {
+        "name": "KFC",
+        "description": "Welcome to KFC chain of restaurants!",
+        "rating": 8,
+        "details": {
+            "address":[ "Mlimani Shopping Mall", "Himo Plaza, Mwai Kibaki Rd, Mbezi Beach", "Mikocheni Plaza, Mwai Kibaki Rd", "Morogoro Rd, Total Energies, Magomeni", "Haile Selassie Rd, Masaki", "Oryx Filling Station, Bagamoyo Rd", "Terminal 3 JNIA", "Diamond Plaza, Mirambo St, Samora Ave " ,"Livingstone St, Kariakoo"],
+            "hours": {
+                "openhours": "11:00 AM - 10:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0790070000", "0715000500" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["American Fast food", "Quick Eats"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/kfc.webp",
+            "img2": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/kfc2.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Ilala",
+            "ward": "Upanga East",
+            "country": "Tanzania",
+            "coordinates": [
+                [-6.764574303628835, 39.21979068888272],
+                [-6.7035435039164275, 39.22631382051412],
+                [-6.747868311938299, 39.245196569973444],
+                [-6.796620914085184, 39.245196569973444],
+                [-6.760483093724714, 39.27540896910837],
+                [-6.771051981768804, 39.259272801388576],
+                [-6.856617326577332, 39.208804361924564],
+                [-6.803439066551969, 39.29188846144171],
+                [-6.8061663024793395, 39.27678226548418]
+            ]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Charles",
+                "rating": 9,
+                "comment": "Tasty food!"
+            },
+            {
+                "reviewer": "Specter",
+                "rating": 8,
+                "comment": "Good Stuff!"
+            }
+        ]
+    },
+    {
+        "name": "PizzaHut",
+        "description": "Welcome to PizzaHut! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 9,
+        "details": {
+            "address":[ "Mlimani Shopping Mall","Mikocheni","Mwai Kibaki Rd, Shoppers Plaza", "Haile Selassie Rd, Oysterbay", "Peugeot House, Ali Hassan Mwinyi Rd"],
+            "hours": {
+                "openhours": "11:00 AM - 10:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0732870000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Italian-American Fast Food", "Quick Eats"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/pizza.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "DSM",
+            "ward": " ",
+            "country": "Tanzania",
+            "coordinates": [
+                [-6.764574303628835, 39.21979068888272],
+                [-6.754731065799447, 39.2452709409446],
+                [-6.7690023685221785, 39.26265995675052],
+                [-6.765436760954774, 39.27578754506907],
+                [-6.808163077387905, 39.286961437279196]
+            ]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 1,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Charles Forsman",
+                "rating": 9,
+                "comment": "Tasty food!"
+            },
+            {
+                "reviewer": "Harvey Specter",
+                "rating": 8,
+                "comment": "Good Stuff!"
+            }
+        ]
+    },
+    {
+        "name": "Cairo Restaurant",
+        "description": "Welcome to an Egyptian restaurant! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 8.5,
+        "details": {
+            "address":[ "Chole Rd"],
+            "hours": {
+                "openhours": "13:00 PM - 23:30 PM",
+                "opendays": "Tuesday - Sunday"
+            },
+            "phone": ["0734870000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Bakery items", "Salads", "Coffee & Tea","Soups", "Breakfast Foods"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/cairo.webp",
+            "img2": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/cairo2.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Msasani",
+            "country": "Tanzania",
+            "coordinates": [-6.763739389663201, 39.28032554403218]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 1,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Camren Denis",
+                "rating": 7,
+                "comment": "Tasty food!"
+            },
+            {
+                "reviewer": "Shaw",
+                "rating": 7,
+                "comment": "Good Stuff!"
+            }
+        ]
+    },
+    {
+        "name": "Aromas Food Point",
+        "description": "Welcome to Food Point restaurant! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 7,
+        "details": {
+            "address":[ "Kibada Rd, Mbuyuni Kwa Mchina Kigamboni"],
+            "hours": {
+                "openhours": "12:00 PM - 23:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0742870000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Arab", "African-Indian", "Visinia"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/foodie.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Kigamboni",
+            "ward": "Kibada",
+            "country": "Tanzania",
+            "coordinates": [-6.86834610700665, 39.34874408778657]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Murphy",
+                "rating": 3,
+                "comment": "Tastes like crap!"
+            },
+            {
+                "reviewer": "Raven",
+                "rating": 5,
+                "comment": "Average Stuff!"
+            }
+        ]
+    },
+    {
+        "name": "Khan's Barbeque",
+        "description": " Located in the tourist city of Arusha, Khan offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 8,
+        "details": {
+            "address":[ "Mosque St"],
+            "hours": {
+                "openhours": "6:00 PM - 00:00 AM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0700070070" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["African", "Mchemsho", "Nyama Choma - Grills"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/grills.webp"
+        },
+        "locationData": {
+            "region": "Arusha ",
+            "nickname": "The Tourist's City",
+            "district": "Arusha",
+            "ward": "Kaloleni",
+            "country": "Tanzania",
+            "coordinates": [-3.371574452172102, 36.68651239405933]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 0,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 0,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Clarke",
+                "rating": 7,
+                "comment": "Tasty steak!"
+            },
+            {
+                "reviewer": "Indra",
+                "rating": 7,
+                "comment": "Good Stuff!"
+            }
+        ]
+    },
+    {
+        "name": "Aricafe Restaurant",
+        "description": "Welcome to Aricafe restaurant! Located in the tourist city of Arusha, Aricafe offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 7.9,
+        "details": {
+            "address":[ "Boma Rd"],
+            "hours": {
+                "openhours": "7:30 AM - 22:30 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0750070000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["African", "Mchemsho", ""],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/cafe.webp"
+        },
+        "locationData": {
+            "region": "Arusha ",
+            "nickname": "The Tourist's City",
+            "district": "Arusha",
+            "ward": "Kaloleni",
+            "country": "Tanzania",
+            "coordinates": [-3.3712097929836444, 36.69484723276522]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            
+        ]
+    },
+    {
+        "name": "Delicious Fast Food",
+        "description": "Welcome! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 7,
+        "details": {
+            "address":[ "Arusha - Himo Rd, Lexo Energy"],
+            "hours": {
+                "openhours": "8:00 AM - 18:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0792870000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["African", "Mchemsho"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/foodie.webp"
+        },
+        "locationData": {
+            "region": "Arusha ",
+            "nickname": "The Tourist's City",
+            "district": "Arusha",
+            "ward": "Kimandolu",
+            "country": "Tanzania",
+            "coordinates": [-3.367808743165662, 36.719486664965906]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            
+        ]
+    },
+    {
+        "name": "City Pork Delicious",
+        "description": "Welcome! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 8,
+        "details": {
+            "address":[ "Mandela Rd, Ubungo"],
+            "hours": {
+                "openhours": "12:00 PM - 1:00 AM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0762810000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Arab", "African-Indian", "Visinia"],
+        "menu": "https://qrco.de/citypork",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/bbq.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Ubungo",
+            "ward": "Ubungo",
+            "country": "Tanzania",
+            "coordinates": [-6.801273579318269, 39.207601107547305]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Riley",
+                "rating": 7,
+                "comment": "Tasty food!"
+            },
+            {
+                "reviewer": "Harper",
+                "rating": 6,
+                "comment": "Good Stuff!"
+            }
+        ]
+    },
+    {
+        "name": "MakJuice Tanzania",
+        "description": "Welcome! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 9,
+        "details": {
+            "address":[ "Shekilango Rd, Ubungo"],
+            "hours": {
+                "openhours": "12:00 PM - 22:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0762810000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Smoothies & Juice Bar", "Beverages"],
+        "menu": "Menu .pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/juice+bar.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Kijitonyama",
+            "country": "Tanzania",
+            "coordinates": [-6.7738819983502765, 39.23359119973506]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 1,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Monty",
+                "rating": 9,
+                "comment": "Tasty food!"
+            },
+            {
+                "reviewer": "Jasper",
+                "rating": 7.5,
+                "comment": "Good Stuff!"
+            }
+        ]
+    },
+    {
+        "name": "Winiz Juice",
+        "description": "Welcome! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 7,
+        "details": {
+            "address":[ "Mori Rd, Dallas Autopoint, Sinza"],
+            "hours": {
+                "openhours": "10:00 PM - 22:00 pM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0700712000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Smoothies & Juice Bar", "Beverages"],
+        "menu": "Menu .pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/orange-juice.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Ubungo",
+            "ward": "Sinza",
+            "country": "Tanzania",
+            "coordinates": [-6.77652836022041, 39.227573238078975]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 0,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Arthur",
+                "rating": 9,
+                "comment": "Good stuff eh!"
+            },
+            {
+                "reviewer": "Thomas",
+                "rating": 8,
+                "comment": "Bloody nice!"
+            }
+        ]
+    },
+    {
+        "name": "Kings Park",
+        "description": "Welcome! Located in the bustling city of Dar es Salaam, Kitisa offers a delightful blend of speedy service and mouth-watering meals",
+        "rating": 7,
+        "details": {
+            "address":[ "Sinza Mapambano"],
+            "hours": {
+                "openhours": "10:00 PM - 22:00 pM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["0700712000" ],
+            "platforms": {
+                "website": "No Details"
+            }
+        },
+        "cuisine": ["Bar", "Beverages", "Nyama Choma - BBQ & Grills"],
+        "menu": "Menu .pdf",
+        "gallery": {
+            "img1": "https://nextmeal-photos.s3.eu-north-1.amazonaws.com/gallery/restaurants/african.webp"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Ubungo",
+            "ward": "Sinza",
+            "country": "Tanzania",
+            "coordinates": [-6.775007677555537, 39.22951222618092]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 0,
+            "catering": 0,
+            "reservation": 0,
+            "onlineOrders": 0
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Foreigner 1",
+                "rating": 10,
+                "comment": "Tasty food!"
+            },
+            {
+                "reviewer": "tourist137",
+                "rating": 3,
+                "comment": "Expensive dishes, and salty food"
+            }
+        ]
+    },
+    {
+        "name": "Scotts Pizza",
+        "description": "Welcome to Scotts Pizza! Located in the bustling city of Dar es Salaam, Making pizza that will make you happy!",
+        "rating": 9,
+        "details": {
+            "address":[ "Lucy Lameck St, Mikocheni"],
+            "hours": {
+                "openhours": "11:00 AM - 11:00 PM",
+                "opendays": "Monday - Sunday"
+            },
+            "phone": ["074455526" ],
+            "platforms": {
+                "website": ""
+            }
+        },
+        "cuisine": ["Italian-American Fast Food", "Quick Eats"],
+        "menu": "Menu.pdf",
+        "gallery": {
+            "img1": "scotts-pizza"
+        },
+        "locationData": {
+            "region": "Dar es Salaam ",
+            "nickname": "The Financial Hub",
+            "district": "Kinondoni",
+            "ward": "Mikocheni",
+            "country": "Tanzania",
+            "coordinates": [-6.758023553163006, 39.249396495492434]
+        },
+        "services": {
+            "foodandBeverages": 1,
+            "takeaway": 1,
+            "delivery": 1,
+            "catering": 0,
+            "reservation": 1,
+            "onlineOrders": 1
+        },
+        "amenities": {
+            "comfortableSeats": 1,
+            "cleanRestroom": 1,
+            "wifi": 0,
+            "parking": 1,
+            "childrenGrounds": 0
+        },
+        "reviews": [
+            {
+                "reviewer": "Charles Forstman",
+                "rating": 9,
+                "comment": "Happiness in every bite!"
+            },
+            {
+                "reviewer": "Jessica Pearson",
+                "rating": 7,
+                "comment": "Tasty Stuff!"
+            }
+        ]
+    }
+]
