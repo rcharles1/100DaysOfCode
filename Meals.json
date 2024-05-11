@@ -203,7 +203,7 @@
     },
     {
         "name": "Pilau",
-        "type": "Pilau",
+        "type": "Rice",
         "course": "Main Course",
         "category": ["Tanzanian", "Lunch", "Dinner"],
         "rating": "8",
@@ -737,7 +737,7 @@
     },
     {
         "name": "Chipsi Kavu",
-        "type": "Chips, or French Fries",
+        "type": "French Fries",
         "course": "Main Course",
         "category": [ "African", "Tanzania", "Quick Bites", "Street Food"],
         "rating": "7.5",
@@ -807,7 +807,7 @@
     },
     {
         "name": "Chipsi Mayai",
-        "type": "Chips, or French Fries",
+        "type": "French Fries",
         "course": "Main Course",
         "category": [ "African", "Tanzania", "Quick Bites", "Street Food"],
         "rating": "7.5",
@@ -985,7 +985,7 @@
     },
     {
         "name": "Kitimoto",
-        "type": "Barbecue & Grills",
+        "type": "Barbecue",
         "course": "Main Course",
         "category": [ "Nyama Choma", "Grills", "Dinner", "Lunch"],
         "rating": 9,
