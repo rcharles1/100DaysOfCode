@@ -1,0 +1,1925 @@
+[{
+  "name": "Coca-Cola",
+  "category": [
+    "Soft Drinks",
+    "Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "The Coca-Cola Company",
+  "volume": "0.0% Alcohol by volume",
+  "size": "600ml",
+  "price": 1500,
+  "gallery": ["coke"]
+},
+{
+  "name": "Sprite",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "The Coca-Cola Company",
+  "volume": "0.0% Alcohol by volume",
+  "size": "600ml",
+  "price": 1500,
+  "gallery": ["sprite"]
+},
+{
+  "name": "Fanta Orange",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "The Coca-Cola Company",
+  "volume": "0.0% Alcohol by volume",
+  "size": "600ml",
+  "price": 1500,
+  "gallery": ["fanta"]
+},
+{
+  "name": "Stoney Tangawizi",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "The Coca-Cola Company",
+  "volume": "0.0% ABV",
+  "size": "600ml",
+  "price": 1500,
+  "gallery": ["tangawizi"]
+},
+{
+  "name": "Azam Energy",
+  "category": [
+    "Soft Drinks",
+    "Energy Drink"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Bakhresa Group",
+  "volume": "31.5mg of Cafferine per 100ml",
+  "size": "300ml",
+  "price": 1000,
+  "gallery": ["azam-energy"]
+},
+{
+  "name": "Monster",
+  "category": [
+    "Soft Drinks",
+    "Energy Drink"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Monster Beverage",
+  "volume": "160mg of cafferine, four cups of brewed coffee",
+  "size": "473ml",
+  "price": 3000,
+  "gallery": ["monster"]
+},
+{
+  "name": "Pepsi",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "PepsiCo",
+  "volume": "0.0% Alcohol by volume",
+  "size": "600ml",
+  "price": 1500,
+  "gallery": ["pepsi"]
+},
+{
+  "name": "Mirinda Orange",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "PepsiCo",
+  "volume": "0.0% Alcohol by volume",
+  "size": "600ml",
+  "price": 1500,
+  "gallery": ["mirinda-orange"]
+},
+{
+  "name": "Healtho",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Anjari Company",
+  "volume": "0.0% Alcohol by volume",
+  "size": "300ml",
+  "price": 1000,
+  "gallery": ["anjari-healtho-300"]
+},
+{
+  "name": "Anjari Cream",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Anjari Company",
+  "volume": "0.0% Alcohol by volume",
+  "size": "300ml",
+  "price": 1000,
+  "gallery": ["anjari-cream-300"]
+},
+{
+  "name": "Anjari Orange",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Anjari Company",
+  "volume": "0.0% Alcohol by volume",
+  "size": "300ml",
+  "price": 1000,
+  "gallery": ["anjari-orange-300"]
+},
+{
+  "name": "Anjari Club Soda",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Anjari Company",
+  "volume": "0.0% Alcohol by volume",
+  "size": "300ml",
+  "price": 1000,
+  "gallery": ["anjari-club-300"]
+},
+{
+  "name": "Anjari Pineapple",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Anjari Company",
+  "volume": "0.0% Alcohol by volume",
+  "size": "300ml",
+  "price": 1000,
+  "gallery": ["anjari-pineapple-300"]
+},
+{
+  "name": "Grand Malt",
+  "category": [
+    "Soft Drinks",
+    "Malt Drink"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Tanzania Breweries Ltd",
+  "volume": "0.0% Alcohol by volume",
+  "size": "330ml",
+  "price": 2000,
+  "gallery": ["grand-malt"]
+},
+{
+  "name": "Schweppes Soda Water",
+  "category": [
+    "Soft Drinks",
+    "Soda Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Schweppes",
+  "volume": "0.0% Alcohol by volume",
+  "size": "500ml",
+  "price": 1000,
+  "gallery": ["schweppes-soda"]
+},
+{
+  "name": "Hill Sparkling Water",
+  "category": [
+    "Soft Drinks",
+    "Sparkling Water",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Hill Group",
+  "volume": "0.0% Alcohol by volume",
+  "size": "750ml",
+  "price": 1800,
+  "gallery": ["default"]
+},
+{
+  "name": "Kilimanjaro Water",
+  "category": [
+    "Soft Drinks",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Bonite Bottlers",
+  "volume": "0.0% Alcohol by volume",
+  "size": "500ml",
+  "price": 500,
+  "gallery": ["klm-water-500"]
+},
+{
+  "name": "Kilimanjaro Water",
+  "category": [
+    "Soft Drinks",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Bonite Bottlers",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 1000,
+  "gallery": ["klm-water"]
+},
+{
+  "name": "Dasani",
+  "category": [
+    "Soft Drinks",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Dasani Ltd",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 1000,
+  "gallery": ["dasani"]
+},
+{
+  "name": "Afya Drinking Water",
+  "category": [
+    "Soft Drinks",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Watercom Limited",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1.6L",
+  "price": 1000,
+  "gallery": ["afya"]
+},
+{
+  "name": "Uhai",
+  "category": [
+    "Soft Drinks",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Bakhresa Food Products Ltd",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1.6L",
+  "price": 500,
+  "gallery": ["uhai-water"]
+},
+{
+  "name": "Dew Drop Drinking Water",
+  "category": [
+    "Soft Drinks",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Bonite Bottlers",
+  "volume": "0.0% Alcohol by volume",
+  "size": "600ml",
+  "price": 700,
+  "gallery": ["dew-drop"]
+},
+{
+  "name": "Hill Water",
+  "category": [
+    "Soft Drinks",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Hill Group",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 1000,
+  "gallery": ["hill-water"]
+},
+{
+  "name": "Kilimanjaro Water",
+  "category": [
+    "Soft Drinks",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Bonite Bottlers",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1.5L",
+  "price": 1500,
+  "gallery": ["klm-water"]
+},
+{
+  "name": "Hill Premium Still Water",
+  "category": [
+    "Soft Drinks",
+    "Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Hill Group",
+  "volume": "0.0% Alcohol by volume",
+  "size": "770ml",
+  "price": 1500,
+  "gallery": ["default"]
+},
+{
+  "name": "Schweppes Tonic Water",
+  "category": [
+    "Soft Drinks",
+    "Tonic Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Schweppes",
+  "volume": "0.0% Alcohol by volume",
+  "size": "500ml",
+  "price": 1000,
+  "gallery": ["schweppes-tonic"]
+},
+{
+  "name": "Krest Tonic Water",
+  "category": [
+    "Soft Drinks",
+    "Tonic Water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Krest",
+  "volume": "0.0% Alcohol by volume",
+  "size": "500ml",
+  "price": 1000,
+  "gallery": ["krest-tonic"]
+},
+{
+  "name": "Pure Heaven Apple Drink",
+  "category": [
+    "Wine"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Rafimex",
+  "volume": "0.0% Alcohol by volume",
+  "size": "750ml",
+  "price": 12000,
+  "gallery": ["pure-heaven-apple"]
+},
+{
+  "name": "Robertson Winery Sweet Sparkling White",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Sparkling",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Robertson Winery",
+  "volume": "0.0% Alcohol by volume",
+  "size": "750ml",
+  "price": 11000,
+  "gallery": ["robertson-sparkling-drink"]
+},
+{
+  "name": "Rendez Vous White Grape Sparkling Wine",
+  "category": [
+    "Wine",
+    "Sparkling",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Rendez Vous (Groupe Eclor)",
+  "volume": "0.0% Alcohol by volume",
+  "size": "750ml",
+  "price": 11000,
+  "gallery": ["rendez-white"]
+},
+{
+  "name": "Rendez Vous Blue Sparkling Wine",
+  "category": [
+    "Wine",
+    "Sparkling",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Rendez Vous (Groupe Eclor)",
+  "volume": "0.0% Alcohol by volume",
+  "size": "750ml",
+  "price": 11000,
+  "gallery": ["rendez-blue"]
+},
+{
+  "name": "Martini Rose Sparkling Wine",
+  "category": [
+    "Wine",
+    "Sparkling",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Martini",
+  "volume": "0.0% Alcohol by volume",
+  "size": "750ml",
+  "price": 30000,
+  "gallery": ["martini-rose"]
+},
+{
+  "name": "Pearly Bay Sparkling Grape",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Sparkling",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Pearly Bay (KWV)",
+  "volume": "0.0% Alcohol by volume",
+  "size": "750ml",
+  "price": 20000,
+  "gallery": ["pearly-bay"]
+},
+{
+  "name": "Martini Dolce Alcohol Free",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Sparkling",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Martini",
+  "volume": "0.0% Alcohol by volume",
+  "size": "750ml",
+  "price": 30000,
+  "gallery": ["martini-dolce"]
+},
+{
+  "name": "Chai Ya Rangi",
+  "category": [
+    "Soft Drinks",
+    "Tea"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Hot",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Cup",
+  "price": 500,
+  "gallery": ["tea"]
+},
+{
+  "name": "Chai Ya Maziwa (Milk Tea)",
+  "category": [
+    "Soft Drinks",
+    "Tea"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Hot",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Cup",
+  "price": 500,
+  "gallery": ["milk-tea"]
+},
+{
+  "name": "Black Coffee",
+  "category": [
+    "Soft Drinks",
+    "Coffee"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Hot",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Cup",
+  "price": 1000,
+  "gallery": ["coffee"]
+},
+{
+  "name": "Cappuccino",
+  "category": [
+    "Soft Drinks",
+    "Coffee"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Hot",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Cup",
+  "price": 2000,
+  "gallery": ["cappuccino"]
+},
+{
+  "name": "Latte",
+  "category": [
+    "Soft Drinks",
+    "Coffee"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Hot",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Cup",
+  "price": 2000,
+  "gallery": ["latte"]
+},
+{
+  "name": "Red Bull",
+  "category": [
+    "Soft Drinks",
+    "Energy Drink"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "GmBH",
+  "volume": "80mg of Cafferine, same as a cup of coffee",
+  "size": "250ml",
+  "price": 3000,
+  "gallery": ["red-bull"]
+},
+{
+  "name": "Ceres Tropical Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Ceres",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 5500,
+  "gallery": ["ceres-tropical"]
+},
+{
+  "name": "Ceres Apple Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Ceres",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 5500,
+  "gallery": ["ceres-apple"]
+},
+{
+  "name": "Ceres Mango Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Ceres",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 5500,
+  "gallery": ["ceres-mango"]
+},
+{
+  "name": "Ceres Red Grapes Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Ceres",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 5500,
+  "gallery": ["ceres-red-grapes"]
+},
+{
+  "name": "Ceres White Grapes Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Ceres",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 5500,
+  "gallery": ["ceres-white-grapes"]
+},
+{
+  "name": "Ceres Cranberry Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Ceres",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 5500,
+  "gallery": ["ceres-cranberry"]
+},
+{
+  "name": "Azam Tropical Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Bakhresa Group",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 3300,
+  "gallery": ["azam-tropical"]
+},
+{
+  "name": "Azam Mango Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Bakhresa Group",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1L",
+  "price": 1800,
+  "gallery": ["azam-mango"]
+},
+{
+  "name": "Azam Tropical Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Bakhresa Group",
+  "volume": "0.0% Alcohol by volume",
+  "size": "330ml",
+  "price": 1000,
+  "gallery": ["azam-tropical-330"]
+},
+{
+  "name": "Azam Mango Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Processed"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Bakhresa Group",
+  "volume": "0.0% Alcohol by volume",
+  "size": "330ml",
+  "price": 1000,
+  "gallery": ["azam-mango"]
+},
+{
+  "name": "Pineapple Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Locally Made",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Glass",
+  "price": 2000,
+  "gallery": ["pineapple-juice"]
+},
+{
+  "name": "Banana Milkshake",
+  "category": [
+    "Soft Drinks",
+    "Milkshake"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Glass",
+  "price": 8000,
+  "gallery": ["banana-milkshake"]
+},
+{
+  "name": "Chocolate Milkshake",
+  "category": [
+    "Soft Drinks",
+    "Milkshake"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Glass",
+  "price": 10000,
+  "gallery": ["chocolate-milkshake"]
+},
+{
+  "name": "Fruity Smoothie",
+  "category": [
+    "Soft Drinks",
+    "Smoothie"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Glass",
+  "price": 5000,
+  "gallery": ["fruit-smoothie"]
+},
+{
+  "name": "Strawberry Milkshake",
+  "category": [
+    "Soft Drinks",
+    "Milkshake"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Glass",
+  "price": 8000,
+  "gallery":[ "strawberry-milkshake"]
+},
+{
+  "name": "Vanilla Milkshake",
+  "category": [
+    "Soft Drinks",
+    "Milkshake"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Glass",
+  "price": 8000,
+  "gallery": ["vanilla-milkshake"]
+},
+{
+  "name": "Avocado Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "",
+  "volume": "0.0% Alcohol by volume",
+  "size": "1 Glass",
+  "price": 2000,
+  "gallery": ["avo"]
+},
+{
+  "name": "Bavaria Apple Drink",
+  "category": [
+    "Soft Drinks",
+    "Malt Drink"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Bavaria",
+  "volume": "0.0% Alcohol by volume",
+  "size": "330ml",
+  "price": 3000,
+  "gallery": ["bavaria"]
+},
+{
+  "name": "Johnnie Walker Blue Label",
+  "category": [
+    "Whiskey",
+    "Scotch Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Johnnie Walker & Sons",
+  "volume": "40% Alcohol by volume",
+  "size": "1L",
+  "price": 120000,
+  "gallery": ["blue-label"]
+},
+{
+  "name": "Johnnie Walker Black Label",
+  "category": [
+    "Whiskey",
+    "Scotch Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Johnnie Walker & Sons",
+  "volume": "40% Alcohol by volume",
+  "size": "750ml",
+  "price": 73000,
+  "gallery": ["black-label"]
+},
+{
+  "name": "Johnnie Walker Double Black",
+  "category": [
+    "Whiskey",
+    "Scotch Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Johnnie Walker & Sons",
+  "volume": "40% Alcohol by volume",
+  "size": "1L",
+  "price": 118000,
+  "gallery": ["double-black"]
+},
+{
+  "name": "Johnnie Walker Red Label",
+  "category": [
+    "Whiskey",
+    "Scotch Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Johnnie Walker & Sons",
+  "volume": "40% Alcohol by volume",
+  "size": "750ml",
+  "price": 118000,
+  "gallery": ["red-label"]
+},
+{
+  "name": "Ciroc Snapy Frost",
+  "category": [
+    "Vodka",
+    "Flavored Vodka"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Ciroc",
+  "size": "750ml",
+  "volume": "4% Alcohol by volume",
+  "price": 246000,
+  "gallery": ["ciroc-vodka"]
+},
+{
+  "name": "Cocktail",
+  "category": [
+    "Hot",
+    "Sours",
+    "Spirit",
+    "Highballs",
+    "Juleps",
+    "Tropical-Style"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Cold",
+  "brand": "",
+  "size": "1 Glass",
+  "volume": "4% Alcohol by volume",
+  "price": 20000,
+  "gallery": ["cocktail"]
+},
+{
+  "name": "Mocktail",
+  "category": [
+    "Tropical-Style"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "",
+  "size": "1 Glass",
+  "volume": "4% Alcohol by volume",
+  "price": 20000,
+  "gallery": ["mocktail"]
+},
+{
+  "name": "Guinness",
+  "category": [
+    "Beer",
+    "Stout"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Diageo",
+  "size": "250ml",
+  "volume": "4% Alcohol by volume",
+  "price": 3000,
+  "gallery": ["guinness-can"]
+},
+{
+  "name": "Guinness",
+  "category": [
+    "Beer",
+    "Stout"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Diageo",
+  "size": "440ml",
+  "volume": "4% Alcohol by volume",
+  "price": 2500,
+  "gallery": ["guinness"]
+},
+{
+  "name": "Heineken",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Heineken N.V.",
+  "size": "400ml",
+  "volume": "5.2% Alcohol by volume",
+  "price": 3500,
+  "gallery": ["heineken"]
+},
+{
+  "name": "Kilimanjaro Premium Lager",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Tanzania Breweries Ltd",
+  "size": "440ml",
+  "volume": "4% Alcohol by volume",
+  "price": 2000,
+  "gallery": ["klm-lager"]
+},
+{
+  "name": "Castle Lager",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "South African Breweries Ltd",
+  "size": "440ml",
+  "volume": "4% Alcohol by volume",
+  "price": 2500,
+  "gallery": ["castle-lager"]
+},
+{
+  "name": "Castle Lite",
+  "category": [
+    "Beer",
+    "Light Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "South African Breweries Ltd",
+  "size": "330ml",
+  "volume": "4% Alcohol by volume",
+  "price": 2500,
+  "gallery": ["castle-lite"]
+},
+{
+  "name": "Serengeti Premium Lager",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Serengeti Breweries Ltd",
+  "size": "440ml",
+  "volume": "4% Alcohol by volume",
+  "price": 2000,
+  "gallery": ["serengeti-lager"]
+},
+{
+  "name": "Serengeti Lite",
+  "category": [
+    "Beer",
+    "Light Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Serengeti Breweries Ltd",
+  "size": "330ml",
+  "volume": "4% Alcohol by volume",
+  "price": 2000,
+  "gallery": ["serengeti-lite"]
+},
+{
+  "name": "Safari Lager",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Tanzania Breweries Ltd",
+  "size": "330",
+  "volume": "5.1% Alcohol by volume",
+  "price": 2000,
+  "gallery": ["safari-lager"]
+},
+{
+  "name": "Hunters Gold",
+  "category": [
+    "Beer",
+    "Ale"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Hunters Breweries Ltd",
+  "size": "660ml",
+  "volume": "4% Alcohol by volume",
+  "price": 3500,
+  "gallery": 
+},
+{
+  "name": "Savanna Dry",
+  "category": [
+    "Cider"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Distell Group Limited",
+  "size": "330ml",
+  "volume": "4% Alcohol by volume",
+  "price": 3500,
+  "gallery": ["savanna-dry"]
+},
+{
+  "name": "Corona Extra",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Constellation Brands",
+  "size": "207ml",
+  "volume": "4% Alcohol by volume",
+  "price": 4000,
+  "gallery": ["corona"]
+},
+{
+  "name": "Budweiser",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Anheuser-Busch",
+  "Size": "330ml",
+  "volume": "4% Alcohol by volume",
+  "price": 3500,
+  "gallery": ["budweiser"]
+},
+{
+  "name": "Windhoek Lager",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Namibia Breweries Ltd",
+  "size": "330ml",
+  "volume": "4% Alcohol by volume",
+  "price": 3500,
+  "gallery": ["windhoek"]
+},
+{
+  "name": "Desperados",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Namibia Breweries Ltd",
+  "size": "330ml",
+  "volume": "5% Alcohol by volume",
+  "price": 3500,
+  "gallery":[ "desperados"]
+},
+{
+  "name": "Barcadi Razz",
+  "category": [
+    "Rum",
+    "Spirits"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Barcardi",
+  "size": "1L",
+  "volume": "40% Alcohol by volume",
+  "price": 42000,
+  "gallery": ["barcadiRazz"]
+},
+{
+  "name": "Drostdy Hof Claret Select Dry Red",
+  "category": [
+    "Wine",
+    "Red Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Drostdy Hof",
+  "size": "5L",
+  "volume": "11.5% Alcohol by volume",
+  "price": 65000,
+  "gallery": ["drostdy-dry-red-5l"]
+},
+{
+  "name": "Drostdy Hof Claret Select Dry Red",
+  "category": [
+    "Wine",
+    "Red Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Drostdy Hof",
+  "size": "750ml",
+  "volume": "12% Alcohol by volume",
+  "price": 14000,
+  "gallery": ["drostdy-dry-red"]
+},
+{
+  "name": "Lion's Hill Cabernet Sauvignon",
+  "category": [
+    "Wine",
+    "Red Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Lion's Hill",
+  "size": "750ml",
+  "volume": "13.51% Alcohol by volume",
+  "price": 16000,
+  "gallery": ["lions-hill-cabernet-sauvignon"]
+},
+{
+  "name": "Lion's Hill Dry Rose",
+  "category": [
+    "Wine",
+    "Red Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Lion's Hill",
+  "size": "750ml",
+  "volume": "13.51% Alcohol by volume",
+  "price": 16000,
+  "gallery": ["lions-hill-rose"]
+},
+{
+  "name": "Baron Organic Dry Red",
+  "category": [
+    "Wine",
+    "Red Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Baron de Lestac",
+  "size": "750ml",
+  "volume": "13% Alcohol by volume",
+  "price": 20000,
+  "gallery":["baron"]
+},
+{
+  "name": "Hennessy",
+  "category": [
+    "Cognac"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Jas Henessy & Co.",
+  "volume": "40% Alcohol by volume",
+  "size": "700ml",
+  "price": 160000,
+  "gallery": ["hennessy"]
+},
+{
+  "name": "Jack Daniel's",
+  "category": [
+    "Whiskey",
+    "Tennessee Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Brown-Forman Corporation",
+  "volume": "40% Alcohol by volume",
+  "size": "",
+  "price": 240000,
+  "gallery": ["jack-daniels"]
+},
+{
+  "name": "Jägermeister",
+  "category": [
+    "Liqueur",
+    "Digestif"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Mast-Jägermeister SE",
+  "volume": "35% Alcohol by volume",
+  "size": "",
+  "price": 240000,
+  "gallery": ["jagermeister"]
+},
+{
+  "name": "Jameson",
+  "category": [
+    "Whiskey",
+    "Irish Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Irish Distillers (Pernod Ricard)",
+  "volume": "40% Alcohol by volume",
+  "size": "750ml",
+  "price": 60000,
+  "gallery": ["jameson"]
+},
+{
+  "name": "Ballentine's Finest Whiskey",
+  "category": [
+    "Whiskey",
+    "Scotch Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Chivas Brothers (Pernod Ricard)",
+  "volume": "40% Alcohol by volume",
+  "size": "1L",
+  "price": 60000,
+  "gallery": ["ballentine-200"]
+},
+{
+  "name": "Ballentine's Finest Whiskey",
+  "category": [
+    "Whiskey",
+    "Scotch Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Chivas Brothers (Pernod Ricard)",
+  "volume": "40% Alcohol by volume",
+  "size": "750ml",
+  "price": 42000,
+  "gallery":[ "ballentine-750"]
+},
+{
+  "name": "Ballentine's Finest Whiskey",
+  "category": [
+    "Whiskey",
+    "Scotch Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Chivas Brothers (Pernod Ricard)",
+  "volume": "40% Alcohol by volume",
+  "size": "4.5L",
+  "price": 281000,
+  "gallery": ["ballentine"]
+},
+{
+  "name": "Konyagi - Bapa",
+  "category": [
+    "Spirits",
+    "Gin"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Tanzania Distilleries Ltd",
+  "volume": "35% Alcohol by volume",
+  "size": "500ml",
+  "price": 5000,
+  "gallery": ["konyagi-500"]
+},
+{
+  "name": "Konyagi - Faru John",
+  "category": [
+    "Spirits",
+    "Gin"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Tanzania Distilleries Ltd",
+  "volume": "35% Alcohol by volume",
+  "size": "750ml",
+  "price": 7000,
+  "gallery": ["konyagi"]
+},
+{
+  "name": "Gordon's London Dry Gin",
+  "category": [
+    "Spirits",
+    "Gin"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Gordon's",
+  "volume": "37.5% Alcohol by volume",
+  "size": "750ml",
+  "price": 37000,
+  "gallery":[ "gordons"]
+},
+{
+  "name": "Beefeater Dry Gin",
+  "category": [
+    "Spirits",
+    "Gin"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Beefeater",
+  "volume": "40.5% Alcohol by volume",
+  "size": "750ml",
+  "price": 47000,
+  "gallery":[ "beefeater"]
+},
+{
+  "name": "K-Vant Premium Spirit",
+  "category": [
+    "Spirits"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Mega Beverages Company Limited",
+  "volume": "37.5% Alcohol by volume",
+  "size": "750ml",
+  "price": 10000,
+  "gallery": ["k-vant"]
+},
+{
+  "name": "Moët & Chandon Impérial",
+  "category": [
+    "Champagne"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Chilled",
+  "brand": "Moët & Chandon",
+  "volume": "12% Alcohol by volume",
+  "size": "750ml",
+  "price": 250000,
+  "gallery": ["moet"]
+},
+{
+  "name": "Mumm Champagne Le Rose",
+  "category": [
+    "Champagne"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Chilled",
+  "brand": "G.H. Mumm & Cie",
+  "volume": "12% Alcohol by volume",
+  "size": "750ml",
+  "price": 190000,
+  "gallery": ["mumm-le-rose"]
+},
+{
+  "name": "Mumm Champagne Ice Extra",
+  "category": [
+    "Champagne"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Chilled",
+  "brand": "G.H. Mumm & Cie",
+  "volume": "12.5% Alcohol by volume",
+  "size": "750ml",
+  "price": 190000,
+  "gallery": ["mumm-ice-extra"]
+},
+{
+  "name": "Mumm Champagne Cordon Rouge Brut",
+  "category": [
+    "Champagne"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Chilled",
+  "brand": "G.H. Mumm & Cie",
+  "volume": "12% Alcohol by volume",
+  "size": "750ml",
+  "price": 165000,
+  "gallery": ["mumm-cordon"]
+},
+{
+  "name": "Chivas Regal Whiskey 25Yo",
+  "category": [
+    "Whiskey",
+    "Scotch Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Chivas Brothers",
+  "volume": "40% Alcohol by volume",
+  "size": "700ml",
+  "price": 931500,
+  "gallery": ["chivas-regal-700"]
+},
+{
+  "name": "Chivas Regal Whiskey 12Yo",
+  "category": [
+    "Whiskey",
+    "Scotch Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Chivas Brothers",
+  "volume": "40% Alcohol by volume",
+  "size": "1L",
+  "price": 128500,
+  "gallery": ["chivas-regal-1L"]
+},
+{
+  "name": "Jacob's Creek Classic Chardonnay",
+  "category": [
+    "Wine",
+    "White Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Jacob's Creek",
+  "volume": "13.1% Alcohol by volume",
+  "size": "750ml",
+  "price": 35000,
+  "gallery": ["jacobs-creek-chardonnay"]
+},
+{
+  "name": "Jacob's Creek Classic Shiraz",
+  "category": [
+    "Wine",
+    "White Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Jacob's Creek",
+  "volume": "13.9% Alcohol by volume",
+  "size": "750ml",
+  "price": 35000,
+  "gallery": ["jacobs-creek-shiraz"]
+},
+{
+  "name": "Robertson Natural Sweet White",
+  "category": [
+    "Wine",
+    "White Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Robertson Winery",
+  "volume": "7.83% Alcohol by volume",
+  "size": "750ml",
+  "price": 250000,
+  "gallery": ["robertson-white"]
+},
+{
+  "name": "Robertson Chapel Dry Red",
+  "category": [
+    "Wine",
+    "Red Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Robertson Winery",
+  "volume": "13.51% Alcohol by volume",
+  "size": "750ml",
+  "price": 19000,
+  "gallery": ["robertson-chapel-dry-red"]
+},
+{
+  "name": "Dompo",
+  "category": [
+    "Wine",
+    "Fortified Sweet Wine",
+    "Red Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Dompo",
+  "volume": "18% Alcohol by volume",
+  "size": "750ml",
+  "price": 7000,
+  "gallery": ["dompo"]
+},
+{
+  "name": "Image Dry Red Wine",
+  "category": [
+    "Wine",
+    "Red Wine"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Dompo",
+  "volume": "18% Alcohol by volume",
+  "size": "750ml",
+  "price": 15000,
+  "gallery": ["default-wine"]
+},
+{
+  "name": "SKYY Vodka",
+  "category": [
+    "Vodka"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Campari Group",
+  "volume": "40% Alcohol by volume",
+  "size": "700ml",
+  "price": 250000,
+  "gallery":[ "skyy"]
+},
+{
+  "name": "Smirnoff Vodka",
+  "category": [
+    "Vodka"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "Diageo",
+  "volume": "50% Alcohol by volume",
+  "size": "700ml",
+  "price": 250000,
+  "gallery": ["smirnoff"]
+},
+{
+  "name": "Tullamore D.E.W.",
+  "category": [
+    "Whiskey",
+    "Irish Whiskey"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "William Grant & Sons",
+  "volume": "40% Alcohol by volume",
+  "size": "700ml",
+  "price": 250000,
+  "gallery": ["tullamore-dew"]
+},
+{
+  "name": "Absolut Vodka",
+  "category": [
+    "Vodka"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Room",
+  "brand": "The Absolut Company AB",
+  "volume": "40% Alcohol by volume",
+  "size": "200ml",
+  "price": 14000,
+  "gallery": ["absolut-vodka"]
+},
+{
+  "name": "Masafi Water",
+  "category": [
+    "water"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Room",
+  "brand": "Masafi",
+  "volume": "0.0% ABV",
+  "size": "1.6L",
+  "price": 14000,
+  "gallery": ["masafi-1.6L"]
+},
+{
+  "name": "Azam Apple Punch",
+  "category": [
+    "Soft Drinks",
+    "Flavored"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Room",
+  "brand": "Bakhresa Group",
+  "volume": "0.0% ABV",
+  "size": "250ml",
+  "price": 600,
+  "gallery": ["apple-punch"]
+},
+{
+  "name": "Novida",
+  "category": [
+    "Soft Drinks",
+    "Soda"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Room",
+  "brand": "The Coca-Cola Company",
+  "volume": "0.0% ABV",
+  "size": "650ml",
+  "price": 1500,
+  "gallery": ["novida"]
+},
+{
+  "name": "Tusker Lager",
+  "category": [
+    "Beer",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Cold",
+  "brand": "East African Breweries",
+  "volume": "4.2% ABV",
+  "size": "450ml",
+  "price": 2500,
+  "gallery": ["tusker-lager"]
+},
+{
+  "name": "Tusker Lite",
+  "category": [
+    "Beer",
+    "Lager",
+    "Lite"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Cold",
+  "brand": "East African Breweries",
+  "volume": "4.0% ABV",
+  "size": "450ml",
+  "price": 2500,
+  "gallery": ["tusker-lite"]
+},
+{
+  "name": "Tusker Malt",
+  "category": [
+    "Beer",
+    "Lager",
+    "Pilsner",
+    "Malt Drink"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Cold",
+  "brand": "East African Breweries",
+  "volume": "5.0% ABV",
+  "size": "450ml",
+  "price": 2500,
+  "gallery": ["tusker-malt"]
+},
+{
+  "name": "Tusker Cider",
+  "category": [
+    "Beer",
+    "Cider",
+    "Lager"
+  ],
+  "type": "Alcoholic",
+  "temperature": "Cold",
+  "brand": "East African Breweries",
+  "volume": "4.5% ABV",
+  "size": "450ml",
+  "price": 2500,
+  "gallery": ["tusker-cider"]
+},
+{
+  "name": "Masala Tea",
+  "category": [
+    "Soft Drinks",
+    "Tea"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Hot",
+  "brand": "",
+  "volume": "0.0% ABV",
+  "size": "",
+  "price": 1000,
+  "gallery": ["masala-tea"]
+}, 
+{
+  "name": "Minute Maid Apple Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Juice Box"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "The Coca-Cola Company",
+  "volume": "0.0% ABV",
+  "size": "1L",
+  "price": 3000,
+  "gallery": ["minute-maid-apple"]
+},
+{
+  "name": "Minute Maid Mango Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Juice Box"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "The Coca-Cola Company",
+  "volume": "0.0% ABV",
+  "size": "1L",
+  "price": 3000,
+  "gallery": ["minute-maid-mango"]
+},
+{
+  "name": "Orchid Valley Tropical Juice",
+  "category": [
+    "Soft Drinks",
+    "Juice",
+    "Juice Box"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "The Coca-Cola Company",
+  "volume": "0.0% ABV",
+  "size": "1L",
+  "price": 3000,
+  "gallery": ["orchid-tropical"]
+},
+{
+  "name": "Vanilla Yorghurt Pack",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Yorghurt",
+    "Vanilla"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Asas Group",
+  "volume": "0.0% ABV",
+  "size": "150ml",
+  "price": 1000,
+  "gallery": ["vanilla-asas-150"]
+},
+{
+  "name": "Vanilla Yorghurt Drink",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Yorghurt",
+    "Vanilla"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Asas Group",
+  "volume": "0.0% ABV",
+  "size": "400g",
+  "price": 2500,
+  "gallery": ["vanilla-asas-400"]
+},
+{
+  "name": "Chocolate Yorghurt Drink",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Yorghurt",
+    "Chocolate"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Asas Group",
+  "volume": "0.0% ABV",
+  "size": "400g",
+  "price": 3000,
+  "gallery": ["chocolate-asas-400"]
+},
+{
+  "name": "Plain Yorghurt Drink",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Yorghurt"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Asas Group",
+  "volume": "0.0% ABV",
+  "size": "400g",
+  "price": 3000,
+  "gallery": ["plain-asas-400"]
+},
+{
+  "name": "Plain Yorghurt Pack",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Yorghurt"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Asas Group",
+  "volume": "0.0% ABV",
+  "size": "150ml",
+  "price": 1000,
+  "gallery": ["plain-asas-150"]
+},
+{
+  "name": "Strawberry Yorghurt Pack",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Yorghurt"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Asas Group",
+  "volume": "0.0% ABV",
+  "size": "150ml",
+  "price": 1000,
+  "gallery": ["strawberry-asas-150"]
+},
+{
+  "name": "Strawberry Yorghurt Drink",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Yorghurt"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Asas Group",
+  "volume": "0.0% ABV",
+  "size": "400g",
+  "price": 1000,
+  "gallery": ["strawberry-asas-400"]
+},
+{
+  "name": "Asas Fresh Milk",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Fresh"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Asas Group",
+  "volume": "0.0% ABV",
+  "size": "500ml",
+  "price": 2500,
+  "gallery": ["asas-fresh-milk"]
+},
+{
+  "name": "Vanilla Yorghurt Drink",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Fresh"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Asas Group",
+  "volume": "0.0% ABV",
+  "size": "4L",
+  "price": 5500,
+  "gallery": ["vanilla-asas-4l"]
+},
+{
+  "name": "Dar Fresh Milk Pack",
+  "category": [
+    "Soft Drinks",
+    "Milk",
+    "Fresh"
+  ],
+  "type": "Non-Alcoholic",
+  "temperature": "Cold",
+  "brand": "Milkcom Dairies Tanzania",
+  "volume": "0.0% ABV",
+  "size": "150ml",
+  "price": 1000,
+  "gallery": ["vanilla-dar-fresh-150"]
+}
+
+]
